@@ -33,10 +33,3 @@ const io = new IntersectionObserver((entries) => {
   });
 }, {threshold:.12, rootMargin:'0px 0px -6% 0px'});
 document.querySelectorAll('.reveal').forEach(el => io.observe(el));
-
-const form = document.getElementById('projectForm');
-const formStatus = document.getElementById('formStatus');
-form?.addEventListener('submit', (e) => {
-  e.preventDefault();
-  formStatus.textContent = '문의 폼 디자인은 완료되었습니다. 실제 발송은 회사 이메일/서버 연결 후 활성화됩니다.';
-});
