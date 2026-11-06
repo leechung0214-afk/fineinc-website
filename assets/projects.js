@@ -149,6 +149,13 @@
   yearFilter.addEventListener('change', filterProjects);
   categoryFilter.addEventListener('change', filterProjects);
 
+  // Async portfolio cards change the position of sections below the gallery.
+  const initialHash = window.location.hash;
+  let userNavigated = false;
+  const markNavigation = () => { userNavigated = true; };
+  ['wheel', 'touchstart', 'pointerdown', 'keydown'].forEach(type =>
+    window.addEventListener(type, markNavigation, { once: true, passive: true }));
+
   fetch('assets/projects.json', { cache: 'no-cache' })
     .then(response => { if (!response.ok) throw new Error('Project data unavailable'); return response.json(); })
     .then(data => {
@@ -164,6 +171,10 @@
       tools.hidden = false;
       if (data.replaceExisting === true) document.getElementById('projectNote').hidden = true;
       filterProjects();
+      if (initialHash && !userNavigated && window.location.hash === initialHash) {
+        const target = document.getElementById(initialHash.slice(1));
+        if (target) target.scrollIntoView({ behavior: 'instant', block: 'start' });
+      }
     })
     .catch(() => { /* Keep the existing portfolio visible if data cannot be loaded. */ });
 })();
