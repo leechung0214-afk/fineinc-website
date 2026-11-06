@@ -1,0 +1,300 @@
+{
+  "schemaVersion": 1,
+  "replaceExisting": true,
+  "projects": [
+    {
+      "id": "culture-forum-2026",
+      "title": "2026 광주문화재단 문화예술교육 포럼",
+      "startDate": "2026-10-30",
+      "endDate": "2026-10-30",
+      "category": "포럼·회의",
+      "role": "음향·무대 시스템 및 행사 운영",
+      "location": "빛고을아트스페이스 5층 대강당",
+      "cover": {
+        "src": "assets/projects/culture-forum-2026-01.jpg",
+        "alt": "문화예술교육 포럼 발표와 객석 전경"
+      },
+      "gallery": [
+        {
+          "src": "assets/projects/culture-forum-2026-02.jpg",
+          "alt": "문화예술교육 포럼 행사 현장"
+        }
+      ]
+    },
+    {
+      "id": "companion-animal-2026",
+      "title": "2026 전남대학교 반려동물 한마당",
+      "startDate": "2026-11-01",
+      "endDate": "2026-11-01",
+      "category": "대학행사",
+      "role": "무대·음향·조명 시스템",
+      "location": "",
+      "cover": {
+        "src": "assets/projects/companion-animal-2026-01.jpg",
+        "alt": "반려동물 한마당 무대 시스템 전경"
+      },
+      "gallery": []
+    },
+    {
+      "id": "art-festival-2026",
+      "title": "2026 광주예총 아트페스티벌",
+      "startDate": "2026-09-01",
+      "endDate": "2026-09-02",
+      "category": "축제",
+      "role": "음향·조명·영상·중계 운영",
+      "location": "빛고을시민문화관 공연장",
+      "cover": {
+        "src": "assets/projects/art-festival-2026-01.jpg",
+        "alt": "광주예총 아트페스티벌 공연 무대와 객석 전경"
+      },
+      "gallery": []
+    },
+    {
+      "id": "youth-performing-arts-2026",
+      "title": "제6회 전국청소년공연예술제",
+      "startDate": "2026-08-05",
+      "endDate": "2026-08-05",
+      "category": "공연",
+      "role": "음향·조명·영상·중계·연출",
+      "location": "남구문화예술회관",
+      "cover": {
+        "src": "assets/projects/youth-performing-arts-2026-01.jpg",
+        "alt": "제6회 전국청소년공연예술제 공연 전경"
+      },
+      "gallery": []
+    },
+    {
+      "id": "honam-expressway-forum-2025",
+      "title": "호남고속도로 확장사업 토론회",
+      "startDate": "2025-07-01",
+      "endDate": "2025-07-01",
+      "category": "포럼·회의",
+      "role": "음향 운영",
+      "location": "",
+      "cover": {
+        "src": "assets/projects/honam-expressway-forum-2025-01.jpg",
+        "alt": "호남고속도로 확장사업 토론회 객석과 진행 전경"
+      },
+      "gallery": []
+    },
+    {
+      "id": "summer-ullim-2025",
+      "title": "2025 해남 썸머 울림페스타",
+      "startDate": "2025-06-13",
+      "endDate": "2025-06-14",
+      "category": "축제",
+      "role": "행사 기획 및 운영",
+      "location": "해남 군민광장 일원",
+      "cover": {
+        "src": "assets/projects/summer-ullim-2025-01.jpg",
+        "alt": "해남 썸머 울림페스타 무대와 관객 전경"
+      },
+      "gallery": [
+        {
+          "src": "assets/projects/summer-ullim-2025-02.jpg",
+          "alt": "해남 썸머 울림페스타 공연과 LED 무대"
+        },
+        {
+          "src": "assets/projects/summer-ullim-2025-03.jpg",
+          "alt": "해남 썸머 울림페스타 라이브 공연 전경"
+        }
+      ]
+    },
+    {
+      "id": "archaeology-talk-2024",
+      "title": "한국고고학 전국대회 연계 토크콘서트",
+      "startDate": "2024-10-31",
+      "endDate": "2024-10-31",
+      "category": "공연",
+      "role": "음향·영상 운영",
+      "location": "",
+      "cover": {
+        "src": "assets/projects/archaeology-talk-2024-01.jpg",
+        "alt": "한국고고학 토크콘서트 무대와 객석 전경"
+      },
+      "gallery": [
+        {
+          "src": "assets/projects/archaeology-talk-2024-02.jpg",
+          "alt": "한국고고학 토크콘서트 공연 전경"
+        }
+      ]
+    },
+    {
+      "id": "yeosun-memorial-2024",
+      "title": "여수·순천 10·19사건 제76주기 합동추념식",
+      "startDate": "2024-10-19",
+      "endDate": "2024-10-19",
+      "category": "기념행사",
+      "role": "음향·영상·무대·객석 구조물",
+      "location": "",
+      "cover": {
+        "src": "assets/projects/yeosun-memorial-2024-01.jpg",
+        "alt": "여수·순천 10·19사건 합동추념식 무대와 객석 전체 전경"
+      },
+      "gallery": [
+        {
+          "src": "assets/projects/yeosun-memorial-2024-02.jpg",
+          "alt": "합동추념식 현장 구조물과 객석 전경"
+        }
+      ]
+    },
+    {
+      "id": "performing-art-festival-2024",
+      "title": "제15회 공연아트페스티벌",
+      "startDate": "2024-09-26",
+      "endDate": "2024-09-27",
+      "category": "축제",
+      "role": "음향·조명·영상·무대·중계 운영",
+      "location": "",
+      "cover": {
+        "src": "assets/projects/performing-art-festival-2024-01.jpg",
+        "alt": "제15회 공연아트페스티벌 야외 무대 설치 전경"
+      },
+      "gallery": []
+    },
+    {
+      "id": "sangsang-univ-2024",
+      "title": "상상유니브",
+      "startDate": "2024-09-06",
+      "endDate": "2024-09-06",
+      "category": "공연",
+      "role": "음향 운영",
+      "location": "",
+      "cover": {
+        "src": "assets/projects/sangsang-univ-2024-01.jpg",
+        "alt": "상상유니브 공연 무대와 음향 운영 전경"
+      },
+      "gallery": []
+    },
+    {
+      "id": "youth-performing-arts-2024",
+      "title": "제4회 전국청소년공연예술제",
+      "startDate": "2024-08-01",
+      "endDate": "2024-08-01",
+      "category": "공연",
+      "role": "음향·조명·영상·중계·무대 운영",
+      "location": "광주예술의전당 소극장",
+      "cover": {
+        "src": "assets/projects/youth-performing-arts-2024-01.jpg",
+        "alt": "제4회 전국청소년공연예술제 공연 전경"
+      },
+      "gallery": []
+    },
+    {
+      "id": "yeongsan-cycle-vision-2024",
+      "title": "영산강 자전거길 정비 비전선포식",
+      "startDate": "2024-05-31",
+      "endDate": "2024-05-31",
+      "category": "기념행사",
+      "role": "음향·영상 시스템",
+      "location": "",
+      "cover": {
+        "src": "assets/projects/yeongsan-cycle-vision-2024-01.jpg",
+        "alt": "영산강 자전거길 정비 비전선포식 음향 운영 전경"
+      },
+      "gallery": []
+    },
+    {
+      "id": "mudeung-ullim-2024",
+      "title": "2024 무등울림축제",
+      "startDate": "2024-05-25",
+      "endDate": "2024-05-26",
+      "category": "축제",
+      "role": "무대·음향·비품 운영",
+      "location": "",
+      "cover": {
+        "src": "assets/projects/mudeung-ullim-2024-01.jpg",
+        "alt": "무등울림축제 행사 비품 배치 전경"
+      },
+      "gallery": []
+    },
+    {
+      "id": "gossaum-2024",
+      "title": "제41회 고싸움놀이축제",
+      "startDate": "2024-03-01",
+      "endDate": "2024-03-03",
+      "category": "축제",
+      "role": "",
+      "location": "",
+      "cover": {
+        "src": "assets/projects/gossaum-2024-01.jpg",
+        "alt": "고싸움놀이축제 무대 시스템 전경"
+      },
+      "gallery": [
+        {
+          "src": "assets/projects/gossaum-2024-02.jpg",
+          "alt": "고싸움놀이축제 전통 공연 전경"
+        },
+        {
+          "src": "assets/projects/gossaum-2024-03.jpg",
+          "alt": "고싸움놀이축제 무대와 관객 전경"
+        }
+      ]
+    },
+    {
+      "id": "asia-culture-market-2023",
+      "title": "2023 아시아컬처마켓 <도시 속 문화장터>",
+      "startDate": "2023-05-19",
+      "endDate": "2023-05-20",
+      "category": "문화행사",
+      "role": "",
+      "location": "",
+      "cover": {
+        "src": "assets/projects/asia-culture-market-2023-01.jpg",
+        "alt": "아시아컬처마켓 야외 행사와 관객 전경"
+      },
+      "gallery": [
+        {
+          "src": "assets/projects/asia-culture-market-2023-02.jpg",
+          "alt": "아시아컬처마켓 공연과 객석 전경"
+        },
+        {
+          "src": "assets/projects/asia-culture-market-2023-03.jpg",
+          "alt": "아시아컬처마켓 현장 전경"
+        }
+      ]
+    },
+    {
+      "id": "yeosu-port-centenary-2023",
+      "title": "여수항 개항 100주년 기념주간",
+      "startDate": "2023-04-01",
+      "endDate": "2023-04-03",
+      "category": "기념행사",
+      "role": "조명·LED 시스템",
+      "location": "",
+      "cover": {
+        "src": "assets/projects/yeosu-port-centenary-2023-01.jpg",
+        "alt": "여수항 개항 100주년 기념주간 공연 무대 전경"
+      },
+      "gallery": [
+        {
+          "src": "assets/projects/yeosu-port-centenary-2023-02.jpg",
+          "alt": "여수항 개항 100주년 연계 행사 현장"
+        },
+        {
+          "src": "assets/projects/yeosu-port-centenary-2023-03.jpg",
+          "alt": "여수항 개항 100주년 행사 무대 시스템 설치 전경"
+        }
+      ]
+    },
+    {
+      "id": "gwangju-fc-opening-2023",
+      "title": "광주FC 개막식",
+      "startDate": "2023-03-05",
+      "endDate": "2023-03-05",
+      "category": "기념행사",
+      "role": "스피커 렌탈",
+      "location": "",
+      "cover": {
+        "src": "assets/projects/gwangju-fc-opening-2023-01.jpg",
+        "alt": "광주FC 개막식 현장 전경"
+      },
+      "gallery": [
+        {
+          "src": "assets/projects/gwangju-fc-opening-2023-02.jpg",
+          "alt": "광주FC 개막식 경기장 전경"
+        }
+      ]
+    }
+  ]
+}

@@ -29,6 +29,7 @@
   <link rel="manifest" href="site.webmanifest" />
   <link rel="stylesheet" href="assets/style.css" />
   <link rel="stylesheet" href="assets/brand-theme.css" />
+  <link rel="stylesheet" href="assets/projects.css" />
 </head>
 <body>
   <a class="skip-link" href="#mainContent">본문으로 이동</a>
@@ -163,7 +164,14 @@
         <p>공공문화 · 대학 · 지역축제 · 영상제작까지.<br />실제 수행 경험이 다음 프로젝트의 기준이 됩니다.</p>
       </div>
 
-      <div class="project-grid">
+      <div class="project-tools" id="projectTools" hidden>
+        <p class="project-count" id="projectCount" aria-live="polite"></p>
+        <div class="project-filters">
+          <label>연도<select id="projectYear" aria-controls="projectGrid"><option value="all">전체 연도</option></select></label>
+          <label>분야<select id="projectCategory" aria-controls="projectGrid"><option value="all">전체 분야</option></select></label>
+        </div>
+      </div>
+      <div class="project-grid" id="projectGrid">
         <article class="project-card project-a reveal">
           <div class="project-visual">
             <span class="project-label">PUBLIC · CULTURE</span>
@@ -212,8 +220,9 @@
           </div>
         </article>
       </div>
+      <p class="project-empty" id="projectEmpty" hidden>선택한 조건에 해당하는 프로젝트가 없습니다.</p>
 
-      <div class="project-note reveal">
+      <div class="project-note reveal" id="projectNote">
         <span>※</span>
         <p>현재 버전은 공개 확인된 프로젝트명을 반영했습니다. 실제 행사사진을 넣으면 각 카드가 바로 포트폴리오 쇼케이스로 전환됩니다.</p>
       </div>
@@ -332,7 +341,22 @@
     </div>
   </footer>
 
+  <dialog class="project-dialog" id="projectDialog" aria-labelledby="projectDialogTitle">
+    <div class="project-dialog-head">
+      <div><p class="project-dialog-category" id="projectDialogCategory"></p><h2 id="projectDialogTitle"></h2><p class="project-dialog-meta" id="projectDialogMeta"></p></div>
+      <button class="project-dialog-close" id="projectDialogClose" type="button" aria-label="사진 상세보기 닫기">닫기 <span aria-hidden="true">×</span></button>
+    </div>
+    <div class="project-viewer">
+      <button class="project-image-nav project-image-prev" id="projectImagePrev" type="button" aria-label="이전 사진">←</button>
+      <figure><img id="projectDialogImage" alt="" /><figcaption id="projectImageCaption"></figcaption></figure>
+      <button class="project-image-nav project-image-next" id="projectImageNext" type="button" aria-label="다음 사진">→</button>
+    </div>
+    <div class="project-image-status"><p id="projectImageDescription"></p><span id="projectImageNumber" aria-live="polite"></span></div>
+    <div class="project-thumbnails" id="projectThumbnails" aria-label="프로젝트 사진 목록"></div>
+  </dialog>
+
   <script src="assets/script.js"></script>
   <script src="assets/contact-mailto.js" defer></script>
+  <script src="assets/projects.js" defer></script>
 </body>
 </html>
