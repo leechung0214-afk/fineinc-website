@@ -365,30 +365,16 @@
     },
     {
       "domain": "audio",
-      "name": "Behringer X air X18",
+      "name": "YAMAHA RIVAGE PM3",
       "category": "콘솔",
-      "brand": "Behringer",
-      "model": "X air X18",
+      "brand": "YAMAHA",
+      "model": "RIVAGE PM3",
       "quantity": 1,
       "led": null,
       "photo": {
-        "src": "assets/equipment/aud-behringer-x18.webp",
+        "src": "assets/equipment/aud-yamaha-pm3.png",
         "caption": "제품 참고 이미지",
-        "source": "https://www.behringer.com/en/products/0605-AAA"
-      }
-    },
-    {
-      "domain": "audio",
-      "name": "MIDAS DL32",
-      "category": "콘솔",
-      "brand": "MIDAS",
-      "model": "DL32",
-      "quantity": 1,
-      "led": null,
-      "photo": {
-        "src": "assets/equipment/aud-midas-dl32.png",
-        "caption": "제품 참고 이미지",
-        "source": "https://www.midasconsoles.com/en/products/0606-acr"
+        "source": "https://usa.yamaha.com/products/proaudio/mixers/rivage_pm/index.html"
       }
     },
     {
@@ -421,6 +407,34 @@
     },
     {
       "domain": "audio",
+      "name": "Behringer X air X18",
+      "category": "콘솔",
+      "brand": "Behringer",
+      "model": "X air X18",
+      "quantity": 1,
+      "led": null,
+      "photo": {
+        "src": "assets/equipment/aud-behringer-x18.webp",
+        "caption": "제품 참고 이미지",
+        "source": "https://www.behringer.com/en/products/0605-AAA"
+      }
+    },
+    {
+      "domain": "audio",
+      "name": "MIDAS DL32",
+      "category": "콘솔",
+      "brand": "MIDAS",
+      "model": "DL32",
+      "quantity": 1,
+      "led": null,
+      "photo": {
+        "src": "assets/equipment/aud-midas-dl32.png",
+        "caption": "제품 참고 이미지",
+        "source": "https://www.midasconsoles.com/en/products/0606-acr"
+      }
+    },
+    {
+      "domain": "audio",
       "name": "YAMAHA RioD2 3224",
       "category": "콘솔",
       "brand": "YAMAHA",
@@ -431,20 +445,6 @@
         "src": "assets/equipment/aud-yamaha-riod2-3224.jpg",
         "caption": "제품 참고 이미지",
         "source": "https://usa.yamaha.com/products/proaudio/interfaces/index.html"
-      }
-    },
-    {
-      "domain": "audio",
-      "name": "YAMAHA RIVAGE PM3",
-      "category": "콘솔",
-      "brand": "YAMAHA",
-      "model": "RIVAGE PM3",
-      "quantity": 1,
-      "led": null,
-      "photo": {
-        "src": "assets/equipment/aud-yamaha-pm3.png",
-        "caption": "제품 참고 이미지",
-        "source": "https://usa.yamaha.com/products/proaudio/mixers/rivage_pm/index.html"
       }
     },
     {
