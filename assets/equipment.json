@@ -8,7 +8,12 @@
       "brand": "K&M",
       "model": "21021-300-55",
       "quantity": 12,
-      "led": null
+      "led": null,
+      "photo": {
+        "src": "assets/equipment/aud-km-21021.jpg",
+        "caption": "제품 참고 이미지",
+        "source": "https://www.k-m.de/en/products/mic-stands/floor-stands/21021-overhead-microphone-stand-black"
+      }
     },
     {
       "domain": "audio",
@@ -17,7 +22,12 @@
       "brand": "K&M",
       "model": "25950",
       "quantity": 6,
-      "led": null
+      "led": null,
+      "photo": {
+        "src": "assets/equipment/aud-km-25950.jpg",
+        "caption": "제품 참고 이미지",
+        "source": "https://www.k-m.de/en/products/mic-stands/floor-stands/25950-microphone-stand-rien-black"
+      }
     },
     {
       "domain": "audio",
@@ -26,7 +36,12 @@
       "brand": "K&M",
       "model": "26250 300-55",
       "quantity": 4,
-      "led": null
+      "led": null,
+      "photo": {
+        "src": "assets/equipment/aud-km-26250.jpg",
+        "caption": "제품 참고 이미지",
+        "source": "https://www.k-m.de/us/products/microphone-stands/floor-stands/microphone-stands-without-boom/26250-one-hand-microphone-stand-performance-black"
+      }
     },
     {
       "domain": "audio",
@@ -35,7 +50,11 @@
       "brand": "",
       "model": "",
       "quantity": 4,
-      "led": null
+      "led": null,
+      "photo": {
+        "src": "assets/equipment/aud-gooseneck-black.png",
+        "caption": "제품 참고 이미지"
+      }
     },
     {
       "domain": "audio",
@@ -44,7 +63,11 @@
       "brand": "",
       "model": "",
       "quantity": 5,
-      "led": null
+      "led": null,
+      "photo": {
+        "src": "assets/equipment/aud-gooseneck-silver.png",
+        "caption": "제품 참고 이미지"
+      }
     },
     {
       "domain": "audio",
@@ -53,7 +76,12 @@
       "brand": "HK audio",
       "model": "Elements E-835",
       "quantity": 12,
-      "led": null
+      "led": null,
+      "photo": {
+        "src": "assets/equipment/aud-e835.jpg",
+        "caption": "제품 참고 이미지",
+        "source": "https://hkaudio.com/products/elements-e835/"
+      }
     },
     {
       "domain": "audio",
@@ -62,7 +90,12 @@
       "brand": "JBL",
       "model": "SRX910LA",
       "quantity": 16,
-      "led": null
+      "led": null,
+      "photo": {
+        "src": "assets/equipment/aud-910.png",
+        "caption": "제품 참고 이미지",
+        "source": "https://jblpro.com/en-US/products/srx910la"
+      }
     },
     {
       "domain": "audio",
@@ -71,7 +104,12 @@
       "brand": "Clair Brothers",
       "model": "Wedge 12",
       "quantity": 12,
-      "led": null
+      "led": null,
+      "photo": {
+        "src": "assets/equipment/aud-clair-wedge12.png",
+        "caption": "제품 참고 이미지",
+        "source": "https://vtecnics.com/wp-content/downloads/clair-bros/monitors-descenari/wedge%20eng/WEDGE_web.pdf"
+      }
     },
     {
       "domain": "audio",
@@ -80,7 +118,12 @@
       "brand": "HK audio",
       "model": "Pro10x",
       "quantity": 4,
-      "led": null
+      "led": null,
+      "photo": {
+        "src": "assets/equipment/aud-hk-pro10x.jpg",
+        "caption": "제품 참고 이미지",
+        "source": "https://hkaudio.com/products/premium-pro-10-x/"
+      }
     },
     {
       "domain": "audio",
@@ -89,7 +132,12 @@
       "brand": "LD Systems",
       "model": "MON 15 G3",
       "quantity": 4,
-      "led": null
+      "led": null,
+      "photo": {
+        "src": "assets/equipment/aud-ld-mon15g3.jpg",
+        "caption": "제품 참고 이미지",
+        "source": "https://www.ld-systems.com/en/stage-monitors/mon-15-a-g3-ldmon15ag3"
+      }
     },
     {
       "domain": "audio",
@@ -98,7 +146,12 @@
       "brand": "SHURE",
       "model": "QLXD1 (L51 632–696 MHz)",
       "quantity": 4,
-      "led": null
+      "led": null,
+      "photo": {
+        "src": "assets/equipment/aud-qlxd1-l51.jpg",
+        "caption": "제품 참고 이미지",
+        "source": "https://www.shure.com/en-US/products/wireless-systems/qlx-d_digital_wireless/qlxd1"
+      }
     },
     {
       "domain": "audio",
@@ -107,7 +160,12 @@
       "brand": "SHURE",
       "model": "QLXD2 / BETA58 (L51 632–696 MHz)",
       "quantity": 4,
-      "led": null
+      "led": null,
+      "photo": {
+        "src": "assets/equipment/aud-qlxd2-b58-l51.jpg",
+        "caption": "제품 참고 이미지",
+        "source": "https://www.shure.com/en-US/products/wireless-systems/qlx-d_digital_wireless/qlxd2_beta58a"
+      }
     },
     {
       "domain": "audio",
@@ -116,7 +174,12 @@
       "brand": "SHURE",
       "model": "QLXD2 / BETA58 (X51 925–937.5 MHz)",
       "quantity": 4,
-      "led": null
+      "led": null,
+      "photo": {
+        "src": "assets/equipment/aud-qlxd2-b58-l51.jpg",
+        "caption": "제품 참고 이미지",
+        "source": "https://www.shure.com/en-US/products/wireless-systems/qlx-d_digital_wireless/qlxd2_beta58a"
+      }
     },
     {
       "domain": "audio",
@@ -125,7 +188,12 @@
       "brand": "SHURE",
       "model": "QLXD4 (L51 632–696 MHz)",
       "quantity": 4,
-      "led": null
+      "led": null,
+      "photo": {
+        "src": "assets/equipment/aud-qlxd-900.jpg",
+        "caption": "제품 참고 이미지",
+        "source": "https://www.shure.com/en-US/products/wireless-systems/qlx-d_digital_wireless/qlxd4"
+      }
     },
     {
       "domain": "audio",
@@ -134,7 +202,12 @@
       "brand": "SHURE",
       "model": "QLXD4 (X51 925–937.5 MHz)",
       "quantity": 4,
-      "led": null
+      "led": null,
+      "photo": {
+        "src": "assets/equipment/aud-qlxd-900.jpg",
+        "caption": "제품 참고 이미지",
+        "source": "https://www.shure.com/en-US/products/wireless-systems/qlx-d_digital_wireless/qlxd4"
+      }
     },
     {
       "domain": "audio",
@@ -143,7 +216,12 @@
       "brand": "SHURE",
       "model": "SLXD1 (L51 632–696 MHz)",
       "quantity": 8,
-      "led": null
+      "led": null,
+      "photo": {
+        "src": "assets/equipment/aud-slxd1-l51.jpg",
+        "caption": "SLX-D 시리즈 참고 · 세대별 외관 차이",
+        "source": "https://www.shure.com/en-US/products/wireless-systems/slx_d_digital_wireless/slxd1"
+      }
     },
     {
       "domain": "audio",
@@ -152,7 +230,12 @@
       "brand": "SHURE",
       "model": "SLXD2 / BETA58 (L51 632–696 MHz)",
       "quantity": 8,
-      "led": null
+      "led": null,
+      "photo": {
+        "src": "assets/equipment/aud-slxd2-b58-l51.jpg",
+        "caption": "SLX-D 시리즈 참고 · 세대별 외관 차이",
+        "source": "https://www.shure.com/en-US/products/wireless-systems/slx_d_digital_wireless/slxd2_beta58"
+      }
     },
     {
       "domain": "audio",
@@ -161,7 +244,12 @@
       "brand": "SHURE",
       "model": "SLXD3 (L51 632–696 MHz)",
       "quantity": 4,
-      "led": null
+      "led": null,
+      "photo": {
+        "src": "assets/equipment/aud-slxd3-l51.jpg",
+        "caption": "SLX-D 시리즈 참고 · 세대별 외관 차이",
+        "source": "https://www.shure.com/en-US/products/wireless-systems/slx_d_digital_wireless/slxd3"
+      }
     },
     {
       "domain": "audio",
@@ -170,7 +258,12 @@
       "brand": "SHURE",
       "model": "SLXD4Q (L51 632–696 MHz)",
       "quantity": 2,
-      "led": null
+      "led": null,
+      "photo": {
+        "src": "assets/equipment/aud-slxd4q-l51.jpg",
+        "caption": "SLX-D 시리즈 참고 · 세대별 외관 차이",
+        "source": "https://www.shure.com/en-US/products/wireless-systems/slx_d_digital_wireless/slxd4qplus"
+      }
     },
     {
       "domain": "audio",
@@ -179,7 +272,12 @@
       "brand": "SHURE",
       "model": "UR1 (L3 638–698 MHz)",
       "quantity": 3,
-      "led": null
+      "led": null,
+      "photo": {
+        "src": "assets/equipment/aud-ur1-l3.jpg",
+        "caption": "제품 참고 이미지",
+        "source": "https://www.shure.com/en-US/products/wireless-systems/uhf-r_wireless/ur1"
+      }
     },
     {
       "domain": "audio",
@@ -188,7 +286,12 @@
       "brand": "SHURE",
       "model": "UR2 / BETA87 (L3 638–698 MHz)",
       "quantity": 4,
-      "led": null
+      "led": null,
+      "photo": {
+        "src": "assets/equipment/aud-ur2-b87-l3.jpg",
+        "caption": "제품 참고 이미지",
+        "source": "https://www.shure.com/en-US/products/wireless-systems/uhf-r_wireless/ur2_beta_87a"
+      }
     },
     {
       "domain": "audio",
@@ -197,7 +300,12 @@
       "brand": "SHURE",
       "model": "UR4D (L3 638–698 MHz)",
       "quantity": 2,
-      "led": null
+      "led": null,
+      "photo": {
+        "src": "assets/equipment/aud-ur4d.jpg",
+        "caption": "제품 참고 이미지",
+        "source": "https://www.arkbell.co.jp/equipment/ur4d/"
+      }
     },
     {
       "domain": "audio",
@@ -206,7 +314,12 @@
       "brand": "SENNHEISER",
       "model": "EW300 IEM G3",
       "quantity": 8,
-      "led": null
+      "led": null,
+      "photo": {
+        "src": "assets/equipment/aud-senn-iem.jpg",
+        "caption": "제품 참고 이미지",
+        "source": "https://www.musiciansfriend.com/pro-audio/sennheiser-ew-300-iem-g3-in-ear-wireless-monitor-system"
+      }
     },
     {
       "domain": "audio",
@@ -215,7 +328,12 @@
       "brand": "HK audio",
       "model": "Elements E-210 SUB",
       "quantity": 4,
-      "led": null
+      "led": null,
+      "photo": {
+        "src": "assets/equipment/aud-e210-sub.jpg",
+        "caption": "제품 참고 이미지",
+        "source": "https://www.guitarcenter.com/HK-AUDIO/E210-AS-Sub-1500000260763.gc"
+      }
     },
     {
       "domain": "audio",
@@ -224,7 +342,12 @@
       "brand": "HK audio",
       "model": "Elements L SUB 1200",
       "quantity": 4,
-      "led": null
+      "led": null,
+      "photo": {
+        "src": "assets/equipment/aud-e1200-sub.jpg",
+        "caption": "제품 참고 이미지",
+        "source": "https://hkaudio.com/products/linear-sub-1200/"
+      }
     },
     {
       "domain": "audio",
@@ -233,7 +356,12 @@
       "brand": "JBL",
       "model": "SRX928S",
       "quantity": 8,
-      "led": null
+      "led": null,
+      "photo": {
+        "src": "assets/equipment/aud-928.png",
+        "caption": "제품 참고 이미지",
+        "source": "https://jblpro.com/en-US/products/srx928s/1000"
+      }
     },
     {
       "domain": "audio",
@@ -242,7 +370,12 @@
       "brand": "Behringer",
       "model": "X air X18",
       "quantity": 1,
-      "led": null
+      "led": null,
+      "photo": {
+        "src": "assets/equipment/aud-behringer-x18.webp",
+        "caption": "제품 참고 이미지",
+        "source": "https://www.behringer.com/en/products/0605-AAA"
+      }
     },
     {
       "domain": "audio",
@@ -251,7 +384,12 @@
       "brand": "MIDAS",
       "model": "DL32",
       "quantity": 1,
-      "led": null
+      "led": null,
+      "photo": {
+        "src": "assets/equipment/aud-midas-dl32.png",
+        "caption": "제품 참고 이미지",
+        "source": "https://www.midasconsoles.com/en/products/0606-acr"
+      }
     },
     {
       "domain": "audio",
@@ -260,7 +398,12 @@
       "brand": "MIDAS",
       "model": "M32",
       "quantity": 1,
-      "led": null
+      "led": null,
+      "photo": {
+        "src": "assets/equipment/aud-midas-m32.png",
+        "caption": "제품 참고 이미지",
+        "source": "https://www.midasconsoles.com/en/products/0603-adx"
+      }
     },
     {
       "domain": "audio",
@@ -269,7 +412,12 @@
       "brand": "MIDAS",
       "model": "M32R",
       "quantity": 1,
-      "led": null
+      "led": null,
+      "photo": {
+        "src": "assets/equipment/aud-midas-m32r.png",
+        "caption": "제품 참고 이미지",
+        "source": "https://www.midasconsoles.com/en/products/0603-aef"
+      }
     },
     {
       "domain": "audio",
@@ -278,7 +426,12 @@
       "brand": "YAMAHA",
       "model": "RioD2 3224",
       "quantity": 3,
-      "led": null
+      "led": null,
+      "photo": {
+        "src": "assets/equipment/aud-yamaha-riod2-3224.jpg",
+        "caption": "제품 참고 이미지",
+        "source": "https://usa.yamaha.com/products/proaudio/interfaces/index.html"
+      }
     },
     {
       "domain": "audio",
@@ -287,7 +440,12 @@
       "brand": "YAMAHA",
       "model": "RIVAGE PM3",
       "quantity": 1,
-      "led": null
+      "led": null,
+      "photo": {
+        "src": "assets/equipment/aud-yamaha-pm3.png",
+        "caption": "제품 참고 이미지",
+        "source": "https://usa.yamaha.com/products/proaudio/mixers/rivage_pm/index.html"
+      }
     },
     {
       "domain": "audio",
@@ -296,7 +454,12 @@
       "brand": "Behringer",
       "model": "P16-D",
       "quantity": 1,
-      "led": null
+      "led": null,
+      "photo": {
+        "src": "assets/equipment/aud-p16-d.png",
+        "caption": "제품 참고 이미지",
+        "source": "https://www.behringer.com/en/products/0609-AAD"
+      }
     },
     {
       "domain": "audio",
@@ -305,7 +468,12 @@
       "brand": "Behringer",
       "model": "P16-M",
       "quantity": 4,
-      "led": null
+      "led": null,
+      "photo": {
+        "src": "assets/equipment/aud-p16-m.png",
+        "caption": "제품 참고 이미지",
+        "source": "https://www.behringer.com/en/products/0609-AAB"
+      }
     },
     {
       "domain": "audio",
@@ -314,7 +482,12 @@
       "brand": "Behringer",
       "model": "P16-MB",
       "quantity": 4,
-      "led": null
+      "led": null,
+      "photo": {
+        "src": "assets/equipment/aud-p16-mb.png",
+        "caption": "제품 참고 이미지",
+        "source": "https://www.behringer.com/en/products/0609-AAC"
+      }
     },
     {
       "domain": "video",
@@ -329,6 +502,11 @@
         "pixelsHigh": 256,
         "pixelsWide": 128,
         "panelsPerCase": 12
+      },
+      "photo": {
+        "src": "assets/equipment/vid-dv2.png",
+        "caption": "DV2 시리즈 참고 사진",
+        "source": "https://www.dicolorled.com/dv2-series/"
       }
     },
     {
@@ -344,6 +522,11 @@
         "pixelsHigh": 128,
         "pixelsWide": 128,
         "panelsPerCase": 24
+      },
+      "photo": {
+        "src": "assets/equipment/vid-dv2.png",
+        "caption": "DV2 시리즈 참고 · 규격별 외관 확인",
+        "source": "https://www.dicolorled.com/dv2-series/"
       }
     },
     {
@@ -359,6 +542,11 @@
         "pixelsHigh": 144,
         "pixelsWide": 72,
         "panelsPerCase": 12
+      },
+      "photo": {
+        "src": "assets/equipment/vid-ul.png",
+        "caption": "UL 시리즈 참고 · 커브 외관 확인",
+        "source": "https://www.dicolorled.com/ul-series/"
       }
     },
     {
@@ -374,6 +562,11 @@
         "pixelsHigh": 144,
         "pixelsWide": 72,
         "panelsPerCase": 12
+      },
+      "photo": {
+        "src": "assets/equipment/vid-ul.png",
+        "caption": "UL 시리즈 참고 사진",
+        "source": "https://www.dicolorled.com/ul-series/"
       }
     }
   ]

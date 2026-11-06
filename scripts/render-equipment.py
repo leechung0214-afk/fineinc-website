@@ -7,6 +7,13 @@ root = Path(__file__).resolve().parents[1]
 data = json.loads((root / 'assets/equipment.json').read_text())
 e = escape
 items = data['items']
+def photo(x):
+    p = x.get('photo')
+    if not p:
+        return ''
+    caption = e(p.get('caption', '제품 참고 이미지'))
+    source = f' <a href="{e(p["source"])}" target="_blank" rel="noopener noreferrer">출처 ↗</a>' if p.get('source') else ''
+    return f'<figure class="equipment-photo"><a href="{e(p["src"])}" target="_blank" rel="noopener" aria-label="{e(x["name"])} 참고 이미지 크게 보기"><img src="{e(p["src"])}" alt="{e(x["name"])} 제품 참고 이미지" loading="lazy" decoding="async" width="240" height="180" /></a><figcaption>{caption}{source}</figcaption></figure>'
 audio = [x for x in items if x['domain'] == 'audio']
 video = [x for x in items if x['domain'] == 'video']
 groups = defaultdict(list)
@@ -30,7 +37,7 @@ parts = ['''    <!-- equipment:start -->
 for cat in order:
     parts.append(f'        <details class="equipment-group"{" open" if cat == "콘솔" else ""}><summary><span>{e(cat)}</span><small>{len(groups[cat])}종</small></summary><ul class="equipment-list">')
     for x in groups[cat]:
-        parts.append(f'          <li><span>{e(x["name"])}</span><strong>{x["quantity"]}<small> EA</small></strong></li>')
+        parts.append(f'          <li>{photo(x)}<span>{e(x["name"])}</span><strong>{x["quantity"]}<small> EA</small></strong></li>')
     parts.append('        </ul></details>')
 parts.append('''      </div>
       <div class="equipment-heading equipment-video-heading"><span>LED DISPLAY</span><h3>LED 영상 장비</h3><p>패널 규격과 해상도에 맞춘 화면 구성.</p></div>
@@ -38,6 +45,7 @@ parts.append('''      </div>
 for x in video:
     led = x['led']
     parts.append(f'''        <article class="equipment-led">
+          {photo(x)}
           <span class="equipment-led-tag">{e(x['category'])}</span>
           <h4>{e(x['name'])}</h4>
           <p>{e(x['model'])}</p>
@@ -45,6 +53,7 @@ for x in video:
         </article>''')
 parts.append(f'''      </div>
       <p class="equipment-note">{e(data['asOf'])} 보유목록 기준 · 표기 수량은 보유 수량이며, 행사일의 사용 가능 수량과 구성은 문의 시 안내드립니다.</p>
+      <p class="equipment-note">사진은 제품·시리즈 참고 이미지이며 실제 보유품의 외관·세부 사양과 다를 수 있습니다. 사진을 누르면 크게 볼 수 있습니다.</p>
     </section>
     <!-- equipment:end -->''')
 section = '\n'.join(parts).replace('<strong>35종</strong>', f'<strong>{len(audio)}종</strong>').replace('<strong>4종</strong>', f'<strong>{len(video)}종</strong>')
