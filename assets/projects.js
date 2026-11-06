@@ -30,7 +30,16 @@
     return typeof path === 'string' && /^assets\/projects\/[a-zA-Z0-9_./-]+\.(?:jpe?g|png|webp)$/i.test(path) && !path.includes('..');
   }
 
+  function projectYear(project) {
+    return project.startDate ? project.startDate.slice(0, 4) : String(project.year);
+  }
+
+  function dateSortKey(project) {
+    return project.startDate || `${projectYear(project)}-${String(project.month || 0).padStart(2, '0')}-00`;
+  }
+
   function dateText(project) {
+    if (!project.startDate) return project.month ? `${projectYear(project)}.${String(project.month).padStart(2, '0')}` : projectYear(project);
     const start = project.startDate.replaceAll('-', '.');
     return project.endDate && project.endDate !== project.startDate ? `${start} – ${project.endDate.replaceAll('-', '.')}` : start;
   }
@@ -38,7 +47,9 @@
   function validProject(project) {
     return project && typeof project.id === 'string' && project.id.length > 0 &&
       typeof project.title === 'string' && project.title.length > 0 &&
-      /^\d{4}-\d{2}-\d{2}$/.test(project.startDate || '') &&
+      (/^\d{4}-\d{2}-\d{2}$/.test(project.startDate || '') ||
+        (/^\d{4}$/.test(String(project.year || '')) && !project.endDate &&
+          (!project.month || (Number.isInteger(project.month) && project.month >= 1 && project.month <= 12)))) &&
       (!project.endDate || /^\d{4}-\d{2}-\d{2}$/.test(project.endDate)) &&
       typeof project.category === 'string' && project.category.length > 0 &&
       project.cover && localImagePath(project.cover.src);
@@ -92,7 +103,7 @@
 
   function makeCard(project) {
     const card = element('article', 'project-card project-photo-card');
-    card.dataset.year = project.startDate.slice(0, 4);
+    card.dataset.year = projectYear(project);
     card.dataset.category = project.category;
     const visual = element('div', 'project-visual');
     const open = element('button', 'project-photo-open');
@@ -113,7 +124,7 @@
     titleButton.type = 'button';
     titleButton.addEventListener('click', () => openProject(project, titleButton));
     title.append(titleButton);
-    info.append(element('span', '', project.startDate.slice(0, 4)), title, element('p', 'project-date', [dateText(project), project.location].filter(Boolean).join(' · ')));
+    info.append(element('span', '', projectYear(project)), title, element('p', 'project-date', [dateText(project), project.location].filter(Boolean).join(' · ')));
     if (project.role) info.append(element('p', 'project-role', project.role));
     card.append(visual, info);
     return card;
@@ -153,13 +164,13 @@
     .then(response => { if (!response.ok) throw new Error('Project data unavailable'); return response.json(); })
     .then(data => {
       if (data.schemaVersion !== 1 || !Array.isArray(data.projects)) return;
-      projects = data.projects.filter(validProject).sort((a, b) => b.startDate.localeCompare(a.startDate));
+      projects = data.projects.filter(validProject).sort((a, b) => dateSortKey(b).localeCompare(dateSortKey(a)));
       if (!projects.length) return;
       if (data.replaceExisting === true) grid.replaceChildren();
       const cards = document.createDocumentFragment();
       projects.forEach(project => cards.append(makeCard(project)));
       grid.prepend(cards);
-      addOptions(yearFilter, [...new Set(projects.map(project => project.startDate.slice(0, 4)))].sort().reverse());
+      addOptions(yearFilter, [...new Set(projects.map(projectYear))].sort().reverse());
       addOptions(categoryFilter, [...new Set(projects.map(project => project.category))].sort((a, b) => a.localeCompare(b, 'ko')));
       tools.hidden = false;
       if (data.replaceExisting === true) document.getElementById('projectNote').hidden = true;
