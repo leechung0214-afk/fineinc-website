@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://leechung0214-afk.github.io/fineinc-website/sitemap.xml
