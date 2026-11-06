@@ -277,3 +277,32 @@ section[id] { scroll-margin-top: 116px; }
   .footer-top, .footer-bottom { gap: 20px; }
   .footer-bottom { margin-top: 24px; }
 }
+
+/* Evidence-first project records: no simulated event photography. */
+.project-context { margin: -12px 0 28px; padding: 20px 24px; border-left: 3px solid var(--cyan); background: #fff; color: var(--muted); font-size: 14px; }
+.project-context p { margin: 0; }
+.project-context p + p { margin-top: 6px; }
+.project-context strong { color: var(--text); }
+.evidence-card { padding-bottom: 0; min-width: 0; display: flex; flex-direction: column; }
+.project-record-banner { display: flex; justify-content: space-between; gap: 16px; padding: 22px 28px; color: #d5e4f5; background: linear-gradient(115deg, var(--navy), #1a466c); border-top: 3px solid var(--cyan); font-size: 11px; letter-spacing: .08em; }
+.project-record-body { padding: 28px; display: flex; flex-direction: column; flex: 1; }
+.project-status { align-self: flex-start; padding: 5px 10px; border: 1px solid #b6cde4; border-radius: 6px; background: #eaf3fc; color: var(--blue); font-size: 12px; font-weight: 700; }
+.project-record-body h3 { margin: 18px 0 24px; font-size: clamp(24px, 2.6vw, 34px); line-height: 1.35; letter-spacing: -.04em; word-break: keep-all; overflow-wrap: anywhere; }
+.project-facts { margin: 0; padding: 16px 0; border-block: 1px solid var(--line); font-size: 14px; }
+.project-facts div { display: grid; grid-template-columns: 36px minmax(0, 1fr); gap: 12px; }
+.project-facts div + div { margin-top: 8px; }
+.project-facts dt { color: var(--muted); }
+.project-facts dd { margin: 0; }
+.project-description { font-size: 15px; line-height: 1.85; margin: 20px 0; }
+.project-evidence { padding: 16px; background: var(--bg-soft); border: 1px solid var(--line); border-radius: 8px; margin-top: auto; }
+.project-evidence h4 { margin: 0 0 8px; font-size: 13px; color: var(--text); }
+.project-evidence p { margin: 0; font-size: 13px; line-height: 1.8; color: var(--muted); }
+.project-sources { list-style: none; margin: 16px 0 0; padding: 0; }
+.project-sources a { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 5px; min-height: 44px; padding: 8px 0; color: var(--blue); font-size: 13px; text-decoration: underline; text-underline-offset: 4px; }
+.project-sources a:hover { color: var(--primary-hover); }
+.source-window { font-size: 11px; }
+@media (max-width: 720px) {
+  .project-record-banner { padding: 18px 20px; font-size: 10px; }
+  .project-record-body { padding: 22px 20px; }
+  .project-context { padding: 16px 20px; }
+}
