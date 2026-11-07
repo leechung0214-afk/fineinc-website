@@ -1,1 +1,5 @@
 _개발준비/
+tests/_artifacts/
+개발보완_진행상태_*.txt
+__pycache__/
+*.py[cod]

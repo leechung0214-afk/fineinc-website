@@ -39,7 +39,7 @@
   <link rel="manifest" href="site.webmanifest" />
   <link rel="stylesheet" href="assets/style.css" />
   <link rel="stylesheet" href="assets/brand-theme.css?v=20261106-mobile" />
-  <link rel="stylesheet" href="assets/projects.css" />
+  <link rel="stylesheet" href="assets/projects.css?v=20261107-portfolio" />
   <link rel="stylesheet" href="assets/equipment.css?v=20261106-ratio" />
 </head>
 <body>
@@ -178,67 +178,35 @@
         <p>공공문화 · 대학 · 지역축제 · 영상제작까지.<br />실제 수행 경험이 다음 프로젝트의 기준이 됩니다.</p>
       </div>
 
-      <div class="project-tools" id="projectTools" hidden>
-        <p class="project-count" id="projectCount" aria-live="polite"></p>
-        <div class="project-filters">
-          <label>연도<select id="projectYear" aria-controls="projectGrid"><option value="all">전체 연도</option></select></label>
-          <label>분야<select id="projectCategory" aria-controls="projectGrid"><option value="all">전체 분야</option></select></label>
+      <div class="project-load-state" id="projectLoadState" data-state="loading" role="status" aria-live="polite" aria-atomic="true">
+        <p id="projectLoadMessage">공개 실적 목록을 불러오고 있습니다.</p>
+        <div class="project-load-actions">
+          <button class="project-button" id="projectRetry" type="button" disabled>불러오는 중…</button>
+          <a id="projectPublicLink" href="https://leechung0214-afk.github.io/fineinc-website/#projects" hidden>공개 홈페이지 열기 ↗</a>
         </div>
       </div>
-      <div class="project-grid" id="projectGrid">
-        <article class="project-card project-a reveal">
-          <div class="project-visual">
-            <span class="project-label">PUBLIC · CULTURE</span>
-            <div class="stage-lines" aria-hidden="true"></div>
-          </div>
-          <div class="project-info">
-            <span>2026</span>
-            <h3>ACC 지역상생<br />문화마켓</h3>
-            <p>EVENT PRODUCTION · SPACE · STAGE · SOUND · LIGHT · VIDEO</p>
-          </div>
-        </article>
-
-        <article class="project-card project-b reveal">
-          <div class="project-visual">
-            <span class="project-label">UNIVERSITY · EVENT</span>
-            <div class="crowd-dots" aria-hidden="true"></div>
-          </div>
-          <div class="project-info">
-            <span>2026</span>
-            <h3>국립순천대학교<br />신입생 OT</h3>
-            <p>PLANNING · STAGE · SOUND · LIGHT · VIDEO · OPERATION</p>
-          </div>
-        </article>
-
-        <article class="project-card project-c reveal">
-          <div class="project-visual">
-            <span class="project-label">FESTIVAL · REGION</span>
-            <div class="festival-rings" aria-hidden="true"></div>
-          </div>
-          <div class="project-info">
-            <span>2026</span>
-            <h3>제12회<br />빛가람페스티벌</h3>
-            <p>FESTIVAL · PRODUCTION · OPERATION</p>
-          </div>
-        </article>
-
-        <article class="project-card project-d reveal">
-          <div class="project-visual">
-            <span class="project-label">VIDEO · CONTENT</span>
-            <div class="video-frame" aria-hidden="true"><span>REC</span></div>
-          </div>
-          <div class="project-info">
-            <span>2026</span>
-            <h3>해남 예술인<br />한마당</h3>
-            <p>VIDEO PRODUCTION · CONTENT</p>
-          </div>
-        </article>
+      <noscript><p class="project-empty">실적 목록과 사진을 보려면 브라우저에서 JavaScript를 사용 설정해 주세요.</p></noscript>
+      <div class="project-tools" id="projectTools" hidden>
+        <p class="project-count" id="projectCount" aria-live="polite"></p>
+        <label class="project-search">실적 검색
+          <input id="projectSearch" type="search" maxlength="160" placeholder="행사명, 장소, 수행 업무" aria-controls="projectGrid" />
+        </label>
+        <div class="project-filters">
+          <label for="projectYear">연도<select id="projectYear" aria-controls="projectGrid"><option value="all">전체 연도</option></select></label>
+          <label for="projectCategory">분야<select id="projectCategory" aria-controls="projectGrid"><option value="all">전체 분야</option></select></label>
+        </div>
+        <div class="project-filter-actions">
+          <button class="project-button" id="projectFilterReset" type="button">조건 초기화</button>
+          <button class="project-button project-button-primary" id="projectFilterShare" type="button">필터 링크 복사</button>
+        </div>
+        <p class="project-share-status" id="projectShareStatus" role="status" aria-live="polite"></p>
+        <input class="project-share-url" id="projectShareUrl" type="url" readonly hidden aria-label="공유할 실적 주소" />
       </div>
-      <p class="project-empty" id="projectEmpty" hidden>선택한 조건에 해당하는 프로젝트가 없습니다.</p>
-
-      <div class="project-note reveal" id="projectNote">
-        <span>※</span>
-        <p>현재 버전은 공개 확인된 프로젝트명을 반영했습니다. 실제 행사사진을 넣으면 각 카드가 바로 포트폴리오 쇼케이스로 전환됩니다.</p>
+      <div class="project-grid" id="projectGrid" aria-busy="true"></div>
+      <p class="project-empty" id="projectEmpty" hidden>검색·필터 조건에 맞는 실적이 없습니다. 검색어를 바꾸거나 조건을 초기화해 주세요.</p>
+      <div class="project-note" id="projectNote" hidden>
+        <span aria-hidden="true">※</span>
+        <p>공개 확인을 마친 실적의 대표사진입니다. 각 실적을 눌러 추가 사진과 수행 범위를 확인하세요.</p>
       </div>
     </section>
 
@@ -472,6 +440,6 @@
 
   <script src="assets/script.js"></script>
   <script src="assets/contact-mailto.js" defer></script>
-  <script src="assets/projects.js?v=20261106-2" defer></script>
+  <script src="assets/projects.js?v=20261107-portfolio" defer></script>
 </body>
 </html>
