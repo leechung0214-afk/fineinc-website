@@ -47,6 +47,8 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: portfolio-browser-qa
-          path: tests/_artifacts/
+          path: |
+            tests/_artifacts/browser-qa/
+            tests/_artifacts/20261107_portfolio/frontend-tests/results.json
           if-no-files-found: warn
           retention-days: 14
