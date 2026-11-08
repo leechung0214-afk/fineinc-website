@@ -26,6 +26,7 @@ PUBLIC = "https://leechung0214-afk.github.io/fineinc-website/"
 WIDTHS = (360, 390, 430, 1440)
 SOURCE = json.loads((ROOT / "assets" / "projects.json").read_text(encoding="utf-8"))
 PROJECTS = SOURCE["projects"]
+EQUIPMENT = json.loads((ROOT / "assets" / "equipment.json").read_text(encoding="utf-8"))
 
 
 class QuietHandler(SimpleHTTPRequestHandler):
@@ -99,6 +100,9 @@ def button_size(page, selector, label):
 def test_viewports(page, scope):
     for width in WIDTHS:
         page.set_viewport_size({"width": width, "height": 900})
+        first_cover = page.locator("#projectGrid .project-photo-card:visible .project-photo-open img").first
+        first_cover.scroll_into_view_if_needed()
+        page.wait_for_function("() => { const img = document.querySelector('#projectGrid .project-photo-card:not([hidden]) .project-photo-open img'); return img && img.complete && img.naturalWidth > 0; }", timeout=20000)
         page.locator("#projectTools").scroll_into_view_if_needed()
         assert_no_horizontal_overflow(page, f"{scope} {width}px")
         for selector in ("#projectSearch", "#projectYear", "#projectCategory", "#projectFilterReset", "#projectFilterShare"):
@@ -253,6 +257,8 @@ def test_local_empty_and_long(context, base):
         long_page.locator("#projectLoadState[data-state='ready']").wait_for(timeout=20000)
         for width in WIDTHS:
             long_page.set_viewport_size({"width": width, "height": 900})
+            long_page.locator(".project-photo-open img").first.scroll_into_view_if_needed()
+            long_page.wait_for_function("() => {const img=document.querySelector('.project-photo-open img'); return img && img.complete && img.naturalWidth > 0;}", timeout=20000)
             assert_no_horizontal_overflow(long_page, f"long Korean title {width}")
             geometry = long_page.locator(".project-title-button").evaluate("""el => {
               const a=el.getBoundingClientRect(), b=el.closest('.project-card').getBoundingClientRect();
@@ -290,6 +296,7 @@ def run_scope(browser, scope, base, results):
         run_case(f"{scope}: published counts", lambda: (
             must(len(PROJECTS) == 47, "source event count changed"),
             must(sum(photo_count(p) for p in PROJECTS) == 122, "source photo count changed"),
+            must(len(EQUIPMENT["items"]) == 39, "source equipment count changed"),
             assert_results(page)), results)
         run_case(f"{scope}: desktop/mobile viewport and targets",
                  lambda: test_viewports(page, scope), results)
