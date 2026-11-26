@@ -1060,28 +1060,6 @@
       ]
     },
     {
-      "id": "postal-sports-2026",
-      "title": "2026년 전남지방본부 조합원 제2회 한마음 체육행사",
-      "startDate": "2026-11-14",
-      "category": "단체행사",
-      "location": "화순 하니움 문화스포츠센터",
-      "role": "음향·영상 시스템",
-      "cover": {
-        "src": "assets/projects/postal-sports-2026-01.jpg",
-        "alt": "전남지방본부 조합원 체육행사 전경"
-      },
-      "gallery": [
-        {
-          "src": "assets/projects/postal-sports-2026-02.jpg",
-          "alt": "전남지방본부 체육행사 LED 무대"
-        },
-        {
-          "src": "assets/projects/postal-sports-2026-03.jpg",
-          "alt": "체육행사 음향·영상 장비 설치"
-        }
-      ]
-    },
-    {
       "id": "hampyeong-childcare-2026",
       "title": "2026 함평군지역아동센터연합회 꿈키움발표회 및 어울림 한마당",
       "startDate": "2026-11-21",
