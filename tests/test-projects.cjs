@@ -307,7 +307,7 @@ test('year/month precision is retained without inventing exact days', async () =
   assert.ok(!app.ids.projectDialogMeta.textContent.startsWith('2024.07.01'));
 });
 
-test('real production JSON retains all 53 projects, 138 photos and date precision', async () => {
+test('real production JSON retains all 53 projects, 141 photos and date precision', async () => {
   const data = JSON.parse(fs.readFileSync(path.join(root, 'assets/projects.json'), 'utf8'));
   assert.equal(data.projects.length, 53);
   assert.equal(data.projects.filter(project => project.startDate).length, 48);
@@ -315,7 +315,7 @@ test('real production JSON retains all 53 projects, 138 photos and date precisio
   assert.equal(data.projects.filter(project => !project.startDate && !project.month).length, 3);
   const app = await start([{ data }]);
   assert.equal(state(app), 'ready'); assert.equal(cards(app).length, 53);
-  assert.match(app.ids.projectCount.textContent, /53건.*138장/);
+  assert.match(app.ids.projectCount.textContent, /53건.*141장/);
   await app.change('projectYear', '2025');
   assert.equal(visible(app).length, 14);
 });

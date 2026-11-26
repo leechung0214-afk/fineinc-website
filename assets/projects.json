@@ -995,23 +995,23 @@
     },
     {
       "id": "mokpo-humanities-2026",
-      "title": "국립목포대학교 인문대학 행사",
+      "title": "제16회 국립목포대학교 인문주간 선포식",
       "startDate": "2026-11-02",
       "category": "대학행사",
       "location": "국립목포대학교",
       "role": "음향·에어샷 운영",
       "cover": {
         "src": "assets/projects/mokpo-humanities-2026-01.jpg",
-        "alt": "인문대학 행사 무대와 음향 설치 전경"
+        "alt": "국립목포대학교 인문주간 선포식 무대와 음향 설치 전경"
       },
       "gallery": [
         {
           "src": "assets/projects/mokpo-humanities-2026-02.jpg",
-          "alt": "인문대학 행사 현장 음향 장비"
+          "alt": "인문주간 선포식 현장 음향 장비"
         },
         {
           "src": "assets/projects/mokpo-humanities-2026-03.jpg",
-          "alt": "인문대학 행사 무대 음향 시스템"
+          "alt": "인문주간 선포식 무대 음향 시스템"
         }
       ]
     },
@@ -1102,17 +1102,30 @@
     },
     {
       "id": "goheung-yuja-lighting-2026",
-      "title": "제6회 고흥유자축제 유자밭 조명",
+      "title": "제6회 고흥유자축제",
       "startDate": "2026-11-12",
       "category": "축제",
-      "location": "고흥유자축제 유자밭",
-      "role": "유자밭 트러스·서치조명",
+      "location": "고흥유자축제 행사장",
+      "role": "메인무대 LED 영상 콘텐츠 제작·현장 설정 지원, 유자밭 트러스·서치조명",
       "endDate": "2026-11-15",
       "cover": {
-        "src": "assets/projects/goheung-yuja-lighting-2026-01.jpg",
-        "alt": "유자밭 야간 트러스 조명"
+        "src": "assets/projects/goheung-yuja-mainstage-2026-01.jpg",
+        "alt": "고흥유자축제 야간 메인무대와 관객 전경",
+        "position": "50% 45%"
       },
       "gallery": [
+        {
+          "src": "assets/projects/goheung-yuja-mainstage-2026-02.jpg",
+          "alt": "고흥유자축제 유자콘테스트 시상식 메인무대"
+        },
+        {
+          "src": "assets/projects/goheung-yuja-mainstage-2026-03.jpg",
+          "alt": "고흥유자축제 야간 공연장과 메인무대 전체 전경"
+        },
+        {
+          "src": "assets/projects/goheung-yuja-lighting-2026-01.jpg",
+          "alt": "유자밭 야간 트러스 조명"
+        },
         {
           "src": "assets/projects/goheung-yuja-lighting-2026-02.jpg",
           "alt": "유자밭 트러스와 조명 설치 전경"
