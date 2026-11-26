@@ -992,6 +992,154 @@
           "alt": "진소리 공연 무대와 송출 화면"
         }
       ]
+    },
+    {
+      "id": "mokpo-humanities-2026",
+      "title": "국립목포대학교 인문대학 행사",
+      "startDate": "2026-11-02",
+      "category": "대학행사",
+      "location": "국립목포대학교",
+      "role": "음향·에어샷 운영",
+      "cover": {
+        "src": "assets/projects/mokpo-humanities-2026-01.jpg",
+        "alt": "인문대학 행사 무대와 음향 설치 전경"
+      },
+      "gallery": [
+        {
+          "src": "assets/projects/mokpo-humanities-2026-02.jpg",
+          "alt": "인문대학 행사 현장 음향 장비"
+        },
+        {
+          "src": "assets/projects/mokpo-humanities-2026-03.jpg",
+          "alt": "인문대학 행사 무대 음향 시스템"
+        }
+      ]
+    },
+    {
+      "id": "daebul-max-2026",
+      "title": "대불산단 M.AX 비전선포식",
+      "startDate": "2026-11-02",
+      "category": "기념식",
+      "location": "호텔현대 바이 라한 목포",
+      "role": "음향·조명·LED 영상 시스템",
+      "cover": {
+        "src": "assets/projects/daebul-max-2026-01.jpg",
+        "alt": "대불산단 M.AX 비전선포식 LED 무대"
+      },
+      "gallery": [
+        {
+          "src": "assets/projects/daebul-max-2026-02.jpg",
+          "alt": "대불산단 비전선포식 무대와 객석"
+        },
+        {
+          "src": "assets/projects/daebul-max-2026-03.jpg",
+          "alt": "대불산단 비전선포식 음향 콘솔"
+        }
+      ]
+    },
+    {
+      "id": "cnu-job-festa-2026",
+      "title": "2026 전남대학교 JOB FESTA",
+      "startDate": "2026-11-09",
+      "category": "대학행사",
+      "location": "전남대학교 5·18광장",
+      "role": "음향 시스템",
+      "cover": {
+        "src": "assets/projects/cnu-job-festa-2026-01.jpg",
+        "alt": "전남대학교 JOB FESTA 행사장과 음향 설치"
+      },
+      "gallery": [
+        {
+          "src": "assets/projects/cnu-job-festa-2026-02.jpg",
+          "alt": "JOB FESTA 현장 음향 시스템"
+        },
+        {
+          "src": "assets/projects/cnu-job-festa-2026-03.jpg",
+          "alt": "JOB FESTA 음향 장비 랙"
+        }
+      ]
+    },
+    {
+      "id": "postal-sports-2026",
+      "title": "2026년 전남지방본부 조합원 제2회 한마음 체육행사",
+      "startDate": "2026-11-14",
+      "category": "단체행사",
+      "location": "화순 하니움 문화스포츠센터",
+      "role": "음향·영상 시스템",
+      "cover": {
+        "src": "assets/projects/postal-sports-2026-01.jpg",
+        "alt": "전남지방본부 조합원 체육행사 전경"
+      },
+      "gallery": [
+        {
+          "src": "assets/projects/postal-sports-2026-02.jpg",
+          "alt": "전남지방본부 체육행사 LED 무대"
+        },
+        {
+          "src": "assets/projects/postal-sports-2026-03.jpg",
+          "alt": "체육행사 음향·영상 장비 설치"
+        }
+      ]
+    },
+    {
+      "id": "hampyeong-childcare-2026",
+      "title": "2026 함평군지역아동센터연합회 꿈키움발표회 및 어울림 한마당",
+      "startDate": "2026-11-21",
+      "category": "문화행사",
+      "location": "함평군문화체육센터",
+      "role": "음향·조명·영상 시스템",
+      "cover": {
+        "src": "assets/projects/hampyeong-childcare-2026-01.jpg",
+        "alt": "함평 꿈키움발표회 무대와 LED 화면"
+      },
+      "gallery": [
+        {
+          "src": "assets/projects/hampyeong-childcare-2026-02.jpg",
+          "alt": "함평 꿈키움발표회 행사장 설치 전경"
+        }
+      ]
+    },
+    {
+      "id": "yeonggwang-rockmu-2026",
+      "title": "영광 학생예술동아리 락뮤 제12회 정기공연 「그날의 목소리」",
+      "startDate": "2026-11-23",
+      "category": "공연",
+      "location": "영광문화예술의전당 대공연장",
+      "role": "음향기기 설치·운영 및 철거",
+      "endDate": "2026-11-24",
+      "cover": {
+        "src": "assets/projects/yeonggwang-rockmu-2026-01.jpg",
+        "alt": "그날의 목소리 공연 무대와 객석"
+      },
+      "gallery": [
+        {
+          "src": "assets/projects/yeonggwang-rockmu-2026-02.jpg",
+          "alt": "락뮤 정기공연 음향 콘솔 운영"
+        },
+        {
+          "src": "assets/projects/yeonggwang-rockmu-2026-03.jpg",
+          "alt": "락뮤 정기공연 음향 장비 랙"
+        }
+      ]
+    },
+    {
+      "id": "goheung-yuja-lighting-2026",
+      "title": "제6회 고흥유자축제 유자밭 조명",
+      "startDate": "2026-11-12",
+      "category": "축제",
+      "location": "고흥유자축제 유자밭",
+      "role": "유자밭 트러스·서치조명",
+      "endDate": "2026-11-15",
+      "cover": {
+        "src": "assets/projects/goheung-yuja-lighting-2026-01.jpg",
+        "alt": "유자밭 야간 트러스 조명"
+      },
+      "gallery": [
+        {
+          "src": "assets/projects/goheung-yuja-lighting-2026-02.jpg",
+          "alt": "유자밭 트러스와 조명 설치 전경"
+        }
+      ]
     }
   ]
 }
