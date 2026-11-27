@@ -1,0 +1,54 @@
+name: Portfolio browser QA (no deployment)
+
+on:
+  pull_request:
+    paths:
+      - "index.html"
+      - "assets/projects.js"
+      - "assets/projects.css"
+      - "assets/projects.json"
+      - "tests/browser_portfolio.py"
+      - ".github/workflows/portfolio-browser-qa.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  chromium:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out proposed branch (read-only)
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Chromium browser test dependency
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install playwright==1.56.0 Pillow==11.3.0
+          python -m playwright install --with-deps chromium
+
+      - name: Existing DOM and data regression tests
+        run: |
+          node --check assets/projects.js
+          node tests/test-projects.cjs
+          python -m unittest discover -s tests -p "test_portfolio_review.py" -v
+
+      - name: Real Chromium QA - local and public separately
+        run: python tests/browser_portfolio.py --public-url https://leechung0214-afk.github.io/fineinc-website/
+
+      - name: Upload layout screenshots and separate test results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: portfolio-browser-qa
+          path: |
+            tests/_artifacts/browser-qa/
+            tests/_artifacts/20261107_portfolio/frontend-tests/results.json
+          if-no-files-found: warn
+          retention-days: 14
