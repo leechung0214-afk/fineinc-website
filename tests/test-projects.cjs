@@ -90,6 +90,9 @@ for (const [name, failure] of failures) test(`${name}: atomic error state and su
   assert.equal(app.ids.projectTools.hidden, false);
   assert.equal(app.ids.projectEmpty.hidden, true);
   assert.match(app.ids.projectCount.textContent, /3건.*4장/);
+  assert.equal(effectivelyVisible(app.ids.projectLoadState), false, 'successful results must not show internal load status');
+  assert.equal(effectivelyVisible(app.ids.projectRetry), false, 'successful results must not offer a status refresh');
+  assert.equal(app.ids.projectLoadMessage.textContent, '');
 });
 
 test('empty successful list has its own state and can be retried', async () => {
@@ -113,11 +116,11 @@ test('consecutive failed retries remain usable until a later recovery', async ()
   assert.equal(cards(app).length, 3);
 });
 
-test('refresh failure clears previously successful cards/counts and restores URL filters after recovery', async () => {
-  const app = await start([{ data: valid() }, { pending: true }, { data: valid() }]);
-  categoryDefault(app, 'successful initial response');
-  await app.change('projectYear', '2024');
-  assert.deepEqual(visibleTitles(app), ['ACC 야외 공연']);
+test('failed retries preserve URL filters and recover without duplicate cards or options', async () => {
+  const app = await start([{ error: 'offline' }, { pending: true }, { data: valid() }], {
+    url: 'https://example.test/fineinc-website/?p_year=2024#projects'
+  });
+  assert.equal(state(app), 'error'); noResultLeak(app);
   await app.click('projectRetry');
   assert.equal(state(app), 'loading');
   assert.equal(app.ids.projectGrid.children.length, 0);

@@ -6,7 +6,6 @@
 .project-load-state p { margin: 0; min-width: 0; overflow-wrap: anywhere; }
 .project-load-state[data-state='loading'] { border-inline-start: 4px solid var(--blue); }
 .project-load-state[data-state='error'] { color: #9c2937; background: #fff0f1; border-color: #edbdc2; }
-.project-load-state[data-state='ready'] { border-inline-start: 4px solid #147d64; }
 .project-load-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 12px; flex-shrink: 0; }
 .project-load-actions a { color: var(--blue); text-underline-offset: 4px; }
 .project-button { min-height: 44px; min-width: 0; padding: 9px 14px; border: 1px solid var(--line-strong); border-radius: var(--control-radius); background: var(--panel); color: var(--text); font: inherit; font-size: 13px; cursor: pointer; }

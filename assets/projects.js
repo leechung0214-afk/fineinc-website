@@ -308,10 +308,12 @@
 
   function showState(state, message) {
     loadState.dataset.state = state;
+    loadState.hidden = state === 'ready';
     loadMessage.textContent = message;
     grid.setAttribute('aria-busy', String(state === 'loading'));
+    retry.hidden = state === 'loading' || state === 'ready';
     retry.disabled = state === 'loading';
-    retry.textContent = state === 'loading' ? '불러오는 중…' : state === 'error' ? '다시 시도' : '목록 다시 확인';
+    retry.textContent = '다시 시도';
   }
   async function loadProjects() {
     const request = ++generation;
@@ -327,7 +329,7 @@
     byId('projectNote').hidden = true;
     publicLink.hidden = true;
     clearShare();
-    showState('loading', '공개 실적 목록을 불러오고 있습니다.');
+    showState('loading', '현장 사진을 불러오고 있습니다.');
     const timeout = setTimeout(() => { timedOut = true; activeController.abort(); }, 12000);
     try {
       const response = await fetch('assets/projects.json', { cache: 'no-cache', signal: activeController.signal });
@@ -344,10 +346,7 @@
       grid.replaceChildren(cards);
       setOptions(yearFilter, [...new Set(projects.map(projectYear))].sort().reverse(), '전체 연도');
       setOptions(categoryFilter, [...new Set(projects.map(project => project.category))].sort((a, b) => a.localeCompare(b, 'ko')), '전체 분야');
-      const checked = new Intl.DateTimeFormat('ko-KR', {
-        year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hour12: false, timeZone: 'Asia/Seoul'
-      }).format(new Date());
-      showState('ready', `실적 목록 확인 완료 · ${checked} (한국시간)`);
+      showState('ready', '');
       tools.hidden = false;
       byId('projectNote').hidden = false;
       restoreFilters();
@@ -367,7 +366,7 @@
           ? '인터넷 연결이 끊겨 실적을 불러오지 못했습니다. 연결을 확인한 뒤 다시 시도해 주세요.'
           : timedOut
             ? '실적을 불러오는 시간이 길어지고 있습니다. 연결을 확인한 뒤 다시 시도해 주세요.'
-            : '실적 목록을 확인하지 못했습니다. 잠시 후 다시 시도해 주세요.';
+            : '사진을 불러오지 못했습니다. 잠시 후 다시 시도해 주세요.';
       publicLink.hidden = window.location.protocol !== 'file:';
       showState('error', message);
     } finally {
