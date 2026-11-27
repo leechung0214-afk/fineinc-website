@@ -11,12 +11,12 @@
       "role": "음향·무대 시스템 및 행사 운영",
       "location": "빛고을아트스페이스 5층 대강당",
       "cover": {
-        "src": "assets/projects/culture-forum-2026-01.jpg",
+        "src": "assets/projects/privacy-20261127/culture-forum-2026-01.jpg",
         "alt": "문화예술교육 포럼 발표와 객석 전경"
       },
       "gallery": [
         {
-          "src": "assets/projects/culture-forum-2026-02.jpg",
+          "src": "assets/projects/privacy-20261127/culture-forum-2026-02.jpg",
           "alt": "문화예술교육 포럼 행사 현장"
         }
       ]
@@ -30,7 +30,7 @@
       "role": "무대·음향·조명 시스템",
       "location": "",
       "cover": {
-        "src": "assets/projects/companion-animal-2026-01.jpg",
+        "src": "assets/projects/privacy-20261127/companion-animal-2026-01.jpg",
         "alt": "반려동물 한마당 무대 시스템 전경"
       },
       "gallery": []
@@ -44,7 +44,7 @@
       "role": "음향·조명·영상·중계 운영",
       "location": "빛고을시민문화관 공연장",
       "cover": {
-        "src": "assets/projects/art-festival-2026-01.jpg",
+        "src": "assets/projects/privacy-20261127/art-festival-2026-01.jpg",
         "alt": "광주예총 아트페스티벌 공연 무대와 객석 전경"
       },
       "gallery": []
@@ -58,7 +58,7 @@
       "role": "음향·조명·영상·중계·연출",
       "location": "남구문화예술회관",
       "cover": {
-        "src": "assets/projects/youth-performing-arts-2026-01.jpg",
+        "src": "assets/projects/privacy-20261127/youth-performing-arts-2026-01.jpg",
         "alt": "제6회 전국청소년공연예술제 공연 전경"
       },
       "gallery": []
@@ -72,7 +72,7 @@
       "role": "음향 운영",
       "location": "",
       "cover": {
-        "src": "assets/projects/honam-expressway-forum-2025-01.jpg",
+        "src": "assets/projects/privacy-20261127/honam-expressway-forum-2025-01.jpg",
         "alt": "호남고속도로 확장사업 토론회 객석과 진행 전경"
       },
       "gallery": []
@@ -86,16 +86,16 @@
       "role": "행사 기획 및 운영",
       "location": "해남 군민광장 일원",
       "cover": {
-        "src": "assets/projects/summer-ullim-2025-01.jpg",
+        "src": "assets/projects/privacy-20261127/summer-ullim-2025-01.jpg",
         "alt": "해남 썸머 울림페스타 무대와 관객 전경"
       },
       "gallery": [
         {
-          "src": "assets/projects/summer-ullim-2025-02.jpg",
+          "src": "assets/projects/privacy-20261127/summer-ullim-2025-02.jpg",
           "alt": "해남 썸머 울림페스타 공연과 LED 무대"
         },
         {
-          "src": "assets/projects/summer-ullim-2025-03.jpg",
+          "src": "assets/projects/privacy-20261127/summer-ullim-2025-03.jpg",
           "alt": "해남 썸머 울림페스타 라이브 공연 전경"
         }
       ]
@@ -109,12 +109,12 @@
       "role": "음향·영상 운영",
       "location": "",
       "cover": {
-        "src": "assets/projects/archaeology-talk-2024-01.jpg",
+        "src": "assets/projects/privacy-20261127/archaeology-talk-2024-01.jpg",
         "alt": "한국고고학 토크콘서트 무대와 객석 전경"
       },
       "gallery": [
         {
-          "src": "assets/projects/archaeology-talk-2024-02.jpg",
+          "src": "assets/projects/privacy-20261127/archaeology-talk-2024-02.jpg",
           "alt": "한국고고학 토크콘서트 공연 전경"
         }
       ]
@@ -128,12 +128,12 @@
       "role": "음향·영상·무대·객석 구조물",
       "location": "",
       "cover": {
-        "src": "assets/projects/yeosun-memorial-2024-01.jpg",
+        "src": "assets/projects/privacy-20261127/yeosun-memorial-2024-01.jpg",
         "alt": "여수·순천 10·19사건 합동추념식 무대와 객석 전체 전경"
       },
       "gallery": [
         {
-          "src": "assets/projects/yeosun-memorial-2024-02.jpg",
+          "src": "assets/projects/privacy-20261127/yeosun-memorial-2024-02.jpg",
           "alt": "합동추념식 현장 구조물과 객석 전경"
         }
       ]
@@ -147,7 +147,7 @@
       "role": "음향·조명·영상·무대·중계 운영",
       "location": "",
       "cover": {
-        "src": "assets/projects/performing-art-festival-2024-01.jpg",
+        "src": "assets/projects/privacy-20261127/performing-art-festival-2024-01.jpg",
         "alt": "제15회 공연아트페스티벌 야외 무대 설치 전경"
       },
       "gallery": []
@@ -161,7 +161,7 @@
       "role": "음향 운영",
       "location": "",
       "cover": {
-        "src": "assets/projects/sangsang-univ-2024-01.jpg",
+        "src": "assets/projects/privacy-20261127/sangsang-univ-2024-01.jpg",
         "alt": "상상유니브 공연 무대와 음향 운영 전경"
       },
       "gallery": []
@@ -175,7 +175,7 @@
       "role": "음향·조명·영상·중계·무대 운영",
       "location": "광주예술의전당 소극장",
       "cover": {
-        "src": "assets/projects/youth-performing-arts-2024-01.jpg",
+        "src": "assets/projects/privacy-20261127/youth-performing-arts-2024-01.jpg",
         "alt": "제4회 전국청소년공연예술제 공연 전경"
       },
       "gallery": []
@@ -189,7 +189,7 @@
       "role": "음향·영상 시스템",
       "location": "",
       "cover": {
-        "src": "assets/projects/yeongsan-cycle-vision-2024-01.jpg",
+        "src": "assets/projects/privacy-20261127/yeongsan-cycle-vision-2024-01.jpg",
         "alt": "영산강 자전거길 정비 비전선포식 음향 운영 전경"
       },
       "gallery": []
@@ -203,7 +203,7 @@
       "role": "무대·음향·비품 운영",
       "location": "",
       "cover": {
-        "src": "assets/projects/mudeung-ullim-2024-01.jpg",
+        "src": "assets/projects/privacy-20261127/mudeung-ullim-2024-01.jpg",
         "alt": "무등울림축제 행사 비품 배치 전경"
       },
       "gallery": []
@@ -217,16 +217,16 @@
       "role": "",
       "location": "",
       "cover": {
-        "src": "assets/projects/gossaum-2024-01.jpg",
+        "src": "assets/projects/privacy-20261127/gossaum-2024-01.jpg",
         "alt": "고싸움놀이축제 무대 시스템 전경"
       },
       "gallery": [
         {
-          "src": "assets/projects/gossaum-2024-02.jpg",
+          "src": "assets/projects/privacy-20261127/gossaum-2024-02.jpg",
           "alt": "고싸움놀이축제 전통 공연 전경"
         },
         {
-          "src": "assets/projects/gossaum-2024-03.jpg",
+          "src": "assets/projects/privacy-20261127/gossaum-2024-03.jpg",
           "alt": "고싸움놀이축제 무대와 관객 전경"
         }
       ]
@@ -240,16 +240,16 @@
       "role": "",
       "location": "",
       "cover": {
-        "src": "assets/projects/asia-culture-market-2023-01.jpg",
+        "src": "assets/projects/privacy-20261127/asia-culture-market-2023-01.jpg",
         "alt": "아시아컬처마켓 야외 행사와 관객 전경"
       },
       "gallery": [
         {
-          "src": "assets/projects/asia-culture-market-2023-02.jpg",
+          "src": "assets/projects/privacy-20261127/asia-culture-market-2023-02.jpg",
           "alt": "아시아컬처마켓 공연과 객석 전경"
         },
         {
-          "src": "assets/projects/asia-culture-market-2023-03.jpg",
+          "src": "assets/projects/privacy-20261127/asia-culture-market-2023-03.jpg",
           "alt": "아시아컬처마켓 현장 전경"
         }
       ]
@@ -263,16 +263,16 @@
       "role": "조명·LED 시스템",
       "location": "",
       "cover": {
-        "src": "assets/projects/yeosu-port-centenary-2023-01.jpg",
+        "src": "assets/projects/privacy-20261127/yeosu-port-centenary-2023-01.jpg",
         "alt": "여수항 개항 100주년 기념주간 공연 무대 전경"
       },
       "gallery": [
         {
-          "src": "assets/projects/yeosu-port-centenary-2023-02.jpg",
+          "src": "assets/projects/privacy-20261127/yeosu-port-centenary-2023-02.jpg",
           "alt": "여수항 개항 100주년 연계 행사 현장"
         },
         {
-          "src": "assets/projects/yeosu-port-centenary-2023-03.jpg",
+          "src": "assets/projects/privacy-20261127/yeosu-port-centenary-2023-03.jpg",
           "alt": "여수항 개항 100주년 행사 무대 시스템 설치 전경"
         }
       ]
@@ -286,12 +286,12 @@
       "role": "스피커 렌탈",
       "location": "",
       "cover": {
-        "src": "assets/projects/gwangju-fc-opening-2023-01.jpg",
+        "src": "assets/projects/privacy-20261127/gwangju-fc-opening-2023-01.jpg",
         "alt": "광주FC 개막식 현장 전경"
       },
       "gallery": [
         {
-          "src": "assets/projects/gwangju-fc-opening-2023-02.jpg",
+          "src": "assets/projects/privacy-20261127/gwangju-fc-opening-2023-02.jpg",
           "alt": "광주FC 개막식 경기장 전경"
         }
       ]
@@ -305,16 +305,16 @@
       "startDate": "2024-11-01",
       "endDate": "2024-11-01",
       "cover": {
-        "src": "assets/projects/goheung-citizens-day-2024-01.jpg",
+        "src": "assets/projects/privacy-20261127/goheung-citizens-day-2024-01.jpg",
         "alt": "제50회 고흥군민의 날 무대와 관객 전경"
       },
       "gallery": [
         {
-          "src": "assets/projects/goheung-citizens-day-2024-02.jpg",
+          "src": "assets/projects/privacy-20261127/goheung-citizens-day-2024-02.jpg",
           "alt": "고흥군민의 날 공연과 영상 무대"
         },
         {
-          "src": "assets/projects/goheung-citizens-day-2024-03.jpg",
+          "src": "assets/projects/privacy-20261127/goheung-citizens-day-2024-03.jpg",
           "alt": "고흥군민의 날 LED 무대 시스템 전경"
         }
       ]
@@ -328,16 +328,16 @@
       "year": 2024,
       "month": 10,
       "cover": {
-        "src": "assets/projects/cheongchun-culture-2024-01.jpg",
+        "src": "assets/projects/privacy-20261127/cheongchun-culture-2024-01.jpg",
         "alt": "청춘문화놀이터 공연 무대와 객석 전경"
       },
       "gallery": [
         {
-          "src": "assets/projects/cheongchun-culture-2024-02.jpg",
+          "src": "assets/projects/privacy-20261127/cheongchun-culture-2024-02.jpg",
           "alt": "청춘문화놀이터 야간 공연과 조명 전경"
         },
         {
-          "src": "assets/projects/cheongchun-culture-2024-03.jpg",
+          "src": "assets/projects/privacy-20261127/cheongchun-culture-2024-03.jpg",
           "alt": "청춘문화놀이터 무대와 행사장 전체 전경"
         }
       ]
@@ -351,16 +351,16 @@
       "startDate": "2024-12-12",
       "endDate": "2024-12-16",
       "cover": {
-        "src": "assets/projects/heritage-platform-exhibition-2024-01.jpg",
+        "src": "assets/projects/privacy-20261127/heritage-platform-exhibition-2024-01.jpg",
         "alt": "전승문화콘텐츠 성과홍보전시회 설치 전경"
       },
       "gallery": [
         {
-          "src": "assets/projects/heritage-platform-exhibition-2024-02.jpg",
+          "src": "assets/projects/privacy-20261127/heritage-platform-exhibition-2024-02.jpg",
           "alt": "전승문화콘텐츠 영상 전시 전경"
         },
         {
-          "src": "assets/projects/heritage-platform-exhibition-2024-03.jpg",
+          "src": "assets/projects/privacy-20261127/heritage-platform-exhibition-2024-03.jpg",
           "alt": "전승문화콘텐츠 전시 공간 전경"
         }
       ]
@@ -374,16 +374,16 @@
       "year": 2024,
       "month": 9,
       "cover": {
-        "src": "assets/projects/gwangju-fringe-2024-01.jpg",
+        "src": "assets/projects/privacy-20261127/gwangju-fringe-2024-01.jpg",
         "alt": "광주프린지페스티벌 부대행사 부스 운영 전경"
       },
       "gallery": [
         {
-          "src": "assets/projects/gwangju-fringe-2024-02.jpg",
+          "src": "assets/projects/privacy-20261127/gwangju-fringe-2024-02.jpg",
           "alt": "광주프린지페스티벌 푸드트럭과 행사 거리"
         },
         {
-          "src": "assets/projects/gwangju-fringe-2024-03.jpg",
+          "src": "assets/projects/privacy-20261127/gwangju-fringe-2024-03.jpg",
           "alt": "광주프린지페스티벌 거리 행사 전경"
         }
       ]
@@ -397,20 +397,20 @@
       "startDate": "2024-08-02",
       "endDate": "2024-08-03",
       "cover": {
-        "src": "assets/projects/haenam-mini-kpop-2024-01.jpg",
+        "src": "assets/projects/privacy-20261127/haenam-mini-kpop-2024-01.jpg",
         "alt": "한여름밤의 문화축제 무대와 관객 전경"
       },
       "gallery": [
         {
-          "src": "assets/projects/haenam-mini-kpop-2024-02.jpg",
+          "src": "assets/projects/privacy-20261127/haenam-mini-kpop-2024-02.jpg",
           "alt": "미니 K-POP 콘서트 공연 무대 전경"
         },
         {
-          "src": "assets/projects/haenam-mini-kpop-2024-03.jpg",
+          "src": "assets/projects/privacy-20261127/haenam-mini-kpop-2024-03.jpg",
           "alt": "미니 K-POP 콘서트 관객과 무대 전경"
         },
         {
-          "src": "assets/projects/haenam-mini-kpop-2024-04.jpg",
+          "src": "assets/projects/privacy-20261127/haenam-mini-kpop-2024-04.jpg",
           "alt": "한여름밤의 문화축제 현장 무대 시스템"
         }
       ]
@@ -424,12 +424,12 @@
       "startDate": "2024-08-29",
       "endDate": "2024-08-31",
       "cover": {
-        "src": "assets/projects/hamaek-2024-01.jpg",
+        "src": "assets/projects/privacy-20261127/hamaek-2024-01.jpg",
         "alt": "강진하맥축제 조명 시스템 설치 전경"
       },
       "gallery": [
         {
-          "src": "assets/projects/hamaek-2024-02.jpg",
+          "src": "assets/projects/privacy-20261127/hamaek-2024-02.jpg",
           "alt": "강진하맥축제 현장 입구와 시설 전경"
         }
       ]
@@ -443,16 +443,16 @@
       "startDate": "2024-05-25",
       "endDate": "2024-05-26",
       "cover": {
-        "src": "assets/projects/gwangju-ai-sw-2024-01.jpg",
+        "src": "assets/projects/privacy-20261127/gwangju-ai-sw-2024-01.jpg",
         "alt": "2024 광주 AI·SW 체험축전 행사장 입구"
       },
       "gallery": [
         {
-          "src": "assets/projects/gwangju-ai-sw-2024-02.jpg",
+          "src": "assets/projects/privacy-20261127/gwangju-ai-sw-2024-02.jpg",
           "alt": "광주 AI·SW 체험축전 행사장과 관객 전경"
         },
         {
-          "src": "assets/projects/gwangju-ai-sw-2024-03.jpg",
+          "src": "assets/projects/privacy-20261127/gwangju-ai-sw-2024-03.jpg",
           "alt": "광주 AI·SW 체험축전 체험 부스 전경"
         }
       ]
@@ -466,16 +466,16 @@
       "startDate": "2024-05-14",
       "endDate": "2024-05-14",
       "cover": {
-        "src": "assets/projects/gugoksundam-centenarian-2024-01.jpg",
+        "src": "assets/projects/privacy-20261127/gugoksundam-centenarian-2024-01.jpg",
         "alt": "구곡순담 100세 잔치 행사장과 관객 전경"
       },
       "gallery": [
         {
-          "src": "assets/projects/gugoksundam-centenarian-2024-02.jpg",
+          "src": "assets/projects/privacy-20261127/gugoksundam-centenarian-2024-02.jpg",
           "alt": "제13회 구곡순담 100세 잔치 공연 무대"
         },
         {
-          "src": "assets/projects/gugoksundam-centenarian-2024-03.jpg",
+          "src": "assets/projects/privacy-20261127/gugoksundam-centenarian-2024-03.jpg",
           "alt": "구곡순담 100세 잔치 전통 공연 전경"
         }
       ]
@@ -489,16 +489,16 @@
       "startDate": "2024-05-04",
       "endDate": "2024-05-04",
       "cover": {
-        "src": "assets/projects/lantern-festival-2024-01.jpg",
+        "src": "assets/projects/privacy-20261127/lantern-festival-2024-01.jpg",
         "alt": "빛고을관등회 무대와 관객 전경"
       },
       "gallery": [
         {
-          "src": "assets/projects/lantern-festival-2024-02.jpg",
+          "src": "assets/projects/privacy-20261127/lantern-festival-2024-02.jpg",
           "alt": "빛고을관등회 공연 무대 전경"
         },
         {
-          "src": "assets/projects/lantern-festival-2024-03.jpg",
+          "src": "assets/projects/privacy-20261127/lantern-festival-2024-03.jpg",
           "alt": "빛고을관등회 야간 현장과 행렬"
         }
       ]
@@ -512,16 +512,16 @@
       "startDate": "2024-08-04",
       "endDate": "2024-08-04",
       "cover": {
-        "src": "assets/projects/democratic-party-jeonnam-2024-01.jpg",
+        "src": "assets/projects/privacy-20261127/democratic-party-jeonnam-2024-01.jpg",
         "alt": "전남 합동연설회 행사장과 객석 전체 전경"
       },
       "gallery": [
         {
-          "src": "assets/projects/democratic-party-jeonnam-2024-02.jpg",
+          "src": "assets/projects/privacy-20261127/democratic-party-jeonnam-2024-02.jpg",
           "alt": "전남 합동연설회 무대 시스템 전경"
         },
         {
-          "src": "assets/projects/democratic-party-jeonnam-2024-03.jpg",
+          "src": "assets/projects/privacy-20261127/democratic-party-jeonnam-2024-03.jpg",
           "alt": "전남 합동연설회 진행 전경"
         }
       ]
@@ -535,16 +535,16 @@
       "startDate": "2023-05-20",
       "endDate": "2023-05-21",
       "cover": {
-        "src": "assets/projects/gwangju-ai-sw-2023-01.jpg",
+        "src": "assets/projects/privacy-20261127/gwangju-ai-sw-2023-01.jpg",
         "alt": "2023 광주 AI·SW 체험축전 개막 행사 전경"
       },
       "gallery": [
         {
-          "src": "assets/projects/gwangju-ai-sw-2023-02.jpg",
+          "src": "assets/projects/privacy-20261127/gwangju-ai-sw-2023-02.jpg",
           "alt": "2023 광주 AI·SW 체험축전 개막식"
         },
         {
-          "src": "assets/projects/gwangju-ai-sw-2023-03.jpg",
+          "src": "assets/projects/privacy-20261127/gwangju-ai-sw-2023-03.jpg",
           "alt": "2023 광주 AI·SW 체험축전 전시장 전체 전경"
         }
       ]
@@ -558,12 +558,12 @@
       "startDate": "2025-02-07",
       "endDate": "2025-02-09",
       "cover": {
-        "src": "assets/projects/gossaum-festival-2025-01.jpg",
+        "src": "assets/projects/privacy-20261127/gossaum-festival-2025-01.jpg",
         "alt": "제42회 고싸움놀이축제 행사 현장"
       },
       "gallery": [
         {
-          "src": "assets/projects/gossaum-festival-2025-02.jpg",
+          "src": "assets/projects/privacy-20261127/gossaum-festival-2025-02.jpg",
           "alt": "제42회 고싸움놀이축제 행사 현장"
         }
       ]
@@ -577,16 +577,16 @@
       "startDate": "2025-08-12",
       "endDate": "2025-08-13",
       "cover": {
-        "src": "assets/projects/national-youth-performing-arts-2025-01.jpg",
+        "src": "assets/projects/privacy-20261127/national-youth-performing-arts-2025-01.jpg",
         "alt": "제5회 전국청소년공연예술제 행사 현장"
       },
       "gallery": [
         {
-          "src": "assets/projects/national-youth-performing-arts-2025-02.jpg",
+          "src": "assets/projects/privacy-20261127/national-youth-performing-arts-2025-02.jpg",
           "alt": "제5회 전국청소년공연예술제 행사 현장"
         },
         {
-          "src": "assets/projects/national-youth-performing-arts-2025-03.jpg",
+          "src": "assets/projects/privacy-20261127/national-youth-performing-arts-2025-03.jpg",
           "alt": "제5회 전국청소년공연예술제 행사 현장"
         }
       ]
@@ -600,16 +600,16 @@
       "startDate": "2025-11-09",
       "endDate": "2025-11-09",
       "cover": {
-        "src": "assets/projects/green-haenam-playground-2025-01.jpg",
+        "src": "assets/projects/privacy-20261127/green-haenam-playground-2025-01.jpg",
         "alt": "2025 그린해남 플레이그라운드 행사 현장"
       },
       "gallery": [
         {
-          "src": "assets/projects/green-haenam-playground-2025-02.jpg",
+          "src": "assets/projects/privacy-20261127/green-haenam-playground-2025-02.jpg",
           "alt": "2025 그린해남 플레이그라운드 행사 현장"
         },
         {
-          "src": "assets/projects/green-haenam-playground-2025-03.jpg",
+          "src": "assets/projects/privacy-20261127/green-haenam-playground-2025-03.jpg",
           "alt": "2025 그린해남 플레이그라운드 행사 현장"
         }
       ]
@@ -623,16 +623,16 @@
       "startDate": "2025-05-23",
       "endDate": "2025-05-25",
       "cover": {
-        "src": "assets/projects/mudeung-ullim-2025-01.jpg",
+        "src": "assets/projects/privacy-20261127/mudeung-ullim-2025-01.jpg",
         "alt": "2025 무등울림축제 행사 현장"
       },
       "gallery": [
         {
-          "src": "assets/projects/mudeung-ullim-2025-02.jpg",
+          "src": "assets/projects/privacy-20261127/mudeung-ullim-2025-02.jpg",
           "alt": "2025 무등울림축제 행사 현장"
         },
         {
-          "src": "assets/projects/mudeung-ullim-2025-03.jpg",
+          "src": "assets/projects/privacy-20261127/mudeung-ullim-2025-03.jpg",
           "alt": "2025 무등울림축제 행사 현장"
         }
       ]
@@ -645,28 +645,28 @@
       "location": "광주",
       "year": 2025,
       "cover": {
-        "src": "assets/projects/youth-busking-2025-01.jpg",
+        "src": "assets/projects/privacy-20261127/youth-busking-2025-01.jpg",
         "alt": "2025 청춘문화누리터 청춘버스킹 행사 현장"
       },
       "gallery": [
         {
-          "src": "assets/projects/youth-busking-2025-02.jpg",
+          "src": "assets/projects/privacy-20261127/youth-busking-2025-02.jpg",
           "alt": "2025 청춘문화누리터 청춘버스킹 행사 현장"
         },
         {
-          "src": "assets/projects/youth-busking-2025-03.jpg",
+          "src": "assets/projects/privacy-20261127/youth-busking-2025-03.jpg",
           "alt": "2025 청춘문화누리터 청춘버스킹 공연 및 음향 운영"
         },
         {
-          "src": "assets/projects/youth-busking-2025-04.jpg",
+          "src": "assets/projects/privacy-20261127/youth-busking-2025-04.jpg",
           "alt": "2025 청춘문화누리터 청춘버스킹 공연 및 음향 운영"
         },
         {
-          "src": "assets/projects/youth-busking-2025-05.jpg",
+          "src": "assets/projects/privacy-20261127/youth-busking-2025-05.jpg",
           "alt": "2025 청춘문화누리터 청춘버스킹 공연 및 음향 운영"
         },
         {
-          "src": "assets/projects/youth-busking-2025-06.jpg",
+          "src": "assets/projects/privacy-20261127/youth-busking-2025-06.jpg",
           "alt": "2025 청춘문화누리터 청춘버스킹 공연 및 음향 운영"
         }
       ]
@@ -680,16 +680,16 @@
       "startDate": "2025-02-12",
       "endDate": "2025-02-14",
       "cover": {
-        "src": "assets/projects/sunchon-preschool-2025-01.jpg",
+        "src": "assets/projects/privacy-20261127/sunchon-preschool-2025-01.jpg",
         "alt": "2025 국립순천대학교 프리스쿨 행사 현장"
       },
       "gallery": [
         {
-          "src": "assets/projects/sunchon-preschool-2025-02.jpg",
+          "src": "assets/projects/privacy-20261127/sunchon-preschool-2025-02.jpg",
           "alt": "2025 국립순천대학교 프리스쿨 행사 현장"
         },
         {
-          "src": "assets/projects/sunchon-preschool-2025-03.jpg",
+          "src": "assets/projects/privacy-20261127/sunchon-preschool-2025-03.jpg",
           "alt": "2025 국립순천대학교 프리스쿨 행사 현장"
         }
       ]
@@ -703,20 +703,20 @@
       "startDate": "2025-10-30",
       "endDate": "2025-10-30",
       "cover": {
-        "src": "assets/projects/apec-ceo-networking-2025-01.jpg",
+        "src": "assets/projects/privacy-20261127/apec-ceo-networking-2025-01.jpg",
         "alt": "2025 APEC CEO Summit 네트워킹 행사 행사 현장"
       },
       "gallery": [
         {
-          "src": "assets/projects/apec-ceo-networking-2025-02.jpg",
+          "src": "assets/projects/privacy-20261127/apec-ceo-networking-2025-02.jpg",
           "alt": "2025 APEC CEO Summit 네트워킹 행사 행사 현장"
         },
         {
-          "src": "assets/projects/apec-ceo-networking-2025-03.jpg",
+          "src": "assets/projects/privacy-20261127/apec-ceo-networking-2025-03.jpg",
           "alt": "2025 APEC CEO Summit 네트워킹 행사 행사 현장"
         },
         {
-          "src": "assets/projects/apec-ceo-networking-2025-04.jpg",
+          "src": "assets/projects/privacy-20261127/apec-ceo-networking-2025-04.jpg",
           "alt": "2025 APEC CEO Summit 네트워킹 행사 행사 현장"
         }
       ]
@@ -730,16 +730,16 @@
       "startDate": "2025-09-17",
       "endDate": "2025-09-17",
       "cover": {
-        "src": "assets/projects/art-festival-2025-01.jpg",
+        "src": "assets/projects/privacy-20261127/art-festival-2025-01.jpg",
         "alt": "제16회 광주예총 공연아트페스티벌 행사 현장"
       },
       "gallery": [
         {
-          "src": "assets/projects/art-festival-2025-02.jpg",
+          "src": "assets/projects/privacy-20261127/art-festival-2025-02.jpg",
           "alt": "제16회 광주예총 공연아트페스티벌 행사 현장"
         },
         {
-          "src": "assets/projects/art-festival-2025-03.jpg",
+          "src": "assets/projects/privacy-20261127/art-festival-2025-03.jpg",
           "alt": "제16회 광주예총 공연아트페스티벌 행사 현장"
         }
       ]
@@ -752,16 +752,16 @@
       "location": "광주",
       "year": 2025,
       "cover": {
-        "src": "assets/projects/culture-outreach-2025-01.jpg",
+        "src": "assets/projects/privacy-20261127/culture-outreach-2025-01.jpg",
         "alt": "2025 찾아가는 문화공연 행사 현장"
       },
       "gallery": [
         {
-          "src": "assets/projects/culture-outreach-2025-02.jpg",
+          "src": "assets/projects/privacy-20261127/culture-outreach-2025-02.jpg",
           "alt": "2025 찾아가는 문화공연 행사 현장"
         },
         {
-          "src": "assets/projects/culture-outreach-2025-03.jpg",
+          "src": "assets/projects/privacy-20261127/culture-outreach-2025-03.jpg",
           "alt": "2025 찾아가는 문화공연 행사 현장"
         }
       ]
@@ -774,7 +774,7 @@
       "location": "담양",
       "year": 2025,
       "cover": {
-        "src": "assets/projects/bamboo-festival-2025-01.jpg",
+        "src": "assets/projects/privacy-20261127/bamboo-festival-2025-01.jpg",
         "alt": "제24회 담양대나무축제 현장"
       },
       "gallery": []
@@ -788,7 +788,7 @@
       "startDate": "2025-12-15",
       "endDate": "2025-12-15",
       "cover": {
-        "src": "assets/projects/jangseong-data-center-2025-01.jpg",
+        "src": "assets/projects/privacy-20261127/jangseong-data-center-2025-01.jpg",
         "alt": "장성 파인데이터센터 착공식 현장"
       },
       "gallery": []
@@ -802,16 +802,16 @@
       "startDate": "2025-10-08",
       "endDate": "2025-10-12",
       "cover": {
-        "src": "assets/projects/yeongsan-theme-pavilion-2025-01.jpg",
+        "src": "assets/projects/privacy-20261127/yeongsan-theme-pavilion-2025-01.jpg",
         "alt": "2025 나주영산강축제 영산강 주제관 현장"
       },
       "gallery": [
         {
-          "src": "assets/projects/yeongsan-theme-pavilion-2025-02.jpg",
+          "src": "assets/projects/privacy-20261127/yeongsan-theme-pavilion-2025-02.jpg",
           "alt": "2025 나주영산강축제 영산강 주제관 현장"
         },
         {
-          "src": "assets/projects/yeongsan-theme-pavilion-2025-03.jpg",
+          "src": "assets/projects/privacy-20261127/yeongsan-theme-pavilion-2025-03.jpg",
           "alt": "2025 나주영산강축제 영산강 주제관 현장"
         }
       ]
@@ -825,24 +825,24 @@
       "startDate": "2026-06-25",
       "endDate": "2026-08-07",
       "cover": {
-        "src": "assets/projects/gwangju-tourism-academy-2026-01.jpg",
+        "src": "assets/projects/privacy-20261127/gwangju-tourism-academy-2026-01.jpg",
         "alt": "광주관광 창업인재 아카데미 참여형 교육 현장"
       },
       "gallery": [
         {
-          "src": "assets/projects/gwangju-tourism-academy-2026-02.jpg",
+          "src": "assets/projects/privacy-20261127/gwangju-tourism-academy-2026-02.jpg",
           "alt": "광주관광 창업인재 아카데미 강의 진행"
         },
         {
-          "src": "assets/projects/gwangju-tourism-academy-2026-03.jpg",
+          "src": "assets/projects/privacy-20261127/gwangju-tourism-academy-2026-03.jpg",
           "alt": "광주관광 창업인재 아카데미 교육과 운영 전경"
         },
         {
-          "src": "assets/projects/gwangju-tourism-academy-2026-04.jpg",
+          "src": "assets/projects/privacy-20261127/gwangju-tourism-academy-2026-04.jpg",
           "alt": "광주관광 창업인재 아카데미 수료식 단체사진"
         },
         {
-          "src": "assets/projects/gwangju-tourism-academy-2026-05.jpg",
+          "src": "assets/projects/privacy-20261127/gwangju-tourism-academy-2026-05.jpg",
           "alt": "아카데미 교육장 준비와 좌석 배치"
         }
       ]
@@ -856,20 +856,20 @@
       "startDate": "2023-02-04",
       "endDate": "2023-02-04",
       "cover": {
-        "src": "assets/projects/suncheon-boomup-festa-2023-01.jpg",
+        "src": "assets/projects/privacy-20261127/suncheon-boomup-festa-2023-01.jpg",
         "alt": "순천 붐UP페스타 본행사 무대와 객석 전경"
       },
       "gallery": [
         {
-          "src": "assets/projects/suncheon-boomup-festa-2023-02.jpg",
+          "src": "assets/projects/privacy-20261127/suncheon-boomup-festa-2023-02.jpg",
           "alt": "순천 붐UP페스타 무대와 행사장 전체 전경"
         },
         {
-          "src": "assets/projects/suncheon-boomup-festa-2023-03.jpg",
+          "src": "assets/projects/privacy-20261127/suncheon-boomup-festa-2023-03.jpg",
           "alt": "순천 붐UP페스타 음향 시스템 운영"
         },
         {
-          "src": "assets/projects/suncheon-boomup-festa-2023-04.jpg",
+          "src": "assets/projects/privacy-20261127/suncheon-boomup-festa-2023-04.jpg",
           "alt": "순천 붐UP페스타 관람객과 행사장 전경"
         }
       ]
@@ -883,16 +883,16 @@
       "startDate": "2023-03-24",
       "endDate": "2023-03-24",
       "cover": {
-        "src": "assets/projects/jungheung-mt-2023-01.jpg",
+        "src": "assets/projects/privacy-20261127/jungheung-mt-2023-01.jpg",
         "alt": "중흥 MT 무대와 음향 운영 현장"
       },
       "gallery": [
         {
-          "src": "assets/projects/jungheung-mt-2023-02.jpg",
+          "src": "assets/projects/privacy-20261127/jungheung-mt-2023-02.jpg",
           "alt": "중흥 MT 행사 진행과 객석 전경"
         },
         {
-          "src": "assets/projects/jungheung-mt-2023-03.jpg",
+          "src": "assets/projects/privacy-20261127/jungheung-mt-2023-03.jpg",
           "alt": "중흥 MT 실내 무대 전경"
         }
       ]
@@ -906,12 +906,12 @@
       "startDate": "2023-03-25",
       "endDate": "2023-03-25",
       "cover": {
-        "src": "assets/projects/sibin-again-2023-01.jpg",
+        "src": "assets/projects/privacy-20261127/sibin-again-2023-01.jpg",
         "alt": "시빈어게인 라이브 공연과 음향 시스템"
       },
       "gallery": [
         {
-          "src": "assets/projects/sibin-again-2023-02.jpg",
+          "src": "assets/projects/privacy-20261127/sibin-again-2023-02.jpg",
           "alt": "시빈어게인 소규모 공연 현장"
         }
       ]
@@ -925,16 +925,16 @@
       "startDate": "2024-01-29",
       "endDate": "2024-01-29",
       "cover": {
-        "src": "assets/projects/yeongam-fire-prevention-laser-2024-01.jpg",
+        "src": "assets/projects/privacy-20261127/yeongam-fire-prevention-laser-2024-01.jpg",
         "alt": "영암 화재예방 메시지 레이저 송출"
       },
       "gallery": [
         {
-          "src": "assets/projects/yeongam-fire-prevention-laser-2024-02.jpg",
+          "src": "assets/projects/privacy-20261127/yeongam-fire-prevention-laser-2024-02.jpg",
           "alt": "화재예방 안전 메시지 야간 레이저 연출"
         },
         {
-          "src": "assets/projects/yeongam-fire-prevention-laser-2024-03.jpg",
+          "src": "assets/projects/privacy-20261127/yeongam-fire-prevention-laser-2024-03.jpg",
           "alt": "영암 레이저 연출 설치·송출 점검"
         }
       ]
@@ -948,20 +948,20 @@
       "startDate": "2023-08-22",
       "endDate": "2023-08-31",
       "cover": {
-        "src": "assets/projects/sin-in-pungnyu-2023-01.jpg",
+        "src": "assets/projects/privacy-20261127/sin-in-pungnyu-2023-01.jpg",
         "alt": "신인풍류자랑 공연과 객석 전경"
       },
       "gallery": [
         {
-          "src": "assets/projects/sin-in-pungnyu-2023-02.jpg",
+          "src": "assets/projects/privacy-20261127/sin-in-pungnyu-2023-02.jpg",
           "alt": "신인풍류자랑 공연 진행 현장"
         },
         {
-          "src": "assets/projects/sin-in-pungnyu-2023-03.jpg",
+          "src": "assets/projects/privacy-20261127/sin-in-pungnyu-2023-03.jpg",
           "alt": "신인풍류자랑 음향 운영"
         },
         {
-          "src": "assets/projects/sin-in-pungnyu-2023-04.jpg",
+          "src": "assets/projects/privacy-20261127/sin-in-pungnyu-2023-04.jpg",
           "alt": "신인풍류자랑 음향 장비 점검과 현장 운영"
         }
       ]
@@ -975,20 +975,20 @@
       "startDate": "2023-07-21",
       "endDate": "2023-07-21",
       "cover": {
-        "src": "assets/projects/jinsori-gayageum-2023-01.jpg",
+        "src": "assets/projects/privacy-20261127/jinsori-gayageum-2023-01.jpg",
         "alt": "진소리 가야금산조 공연 실황"
       },
       "gallery": [
         {
-          "src": "assets/projects/jinsori-gayageum-2023-02.jpg",
+          "src": "assets/projects/privacy-20261127/jinsori-gayageum-2023-02.jpg",
           "alt": "전통문화관 서석당 공연과 관객 전경"
         },
         {
-          "src": "assets/projects/jinsori-gayageum-2023-03.jpg",
+          "src": "assets/projects/privacy-20261127/jinsori-gayageum-2023-03.jpg",
           "alt": "가야금산조 무대 연주와 음향 운영"
         },
         {
-          "src": "assets/projects/jinsori-gayageum-2023-04.jpg",
+          "src": "assets/projects/privacy-20261127/jinsori-gayageum-2023-04.jpg",
           "alt": "진소리 공연 무대와 송출 화면"
         }
       ]
@@ -1001,16 +1001,16 @@
       "location": "국립목포대학교",
       "role": "음향·에어샷 운영",
       "cover": {
-        "src": "assets/projects/mokpo-humanities-2026-01.jpg",
+        "src": "assets/projects/privacy-20261127/mokpo-humanities-2026-01.jpg",
         "alt": "국립목포대학교 인문주간 선포식 무대와 음향 설치 전경"
       },
       "gallery": [
         {
-          "src": "assets/projects/mokpo-humanities-2026-02.jpg",
+          "src": "assets/projects/privacy-20261127/mokpo-humanities-2026-02.jpg",
           "alt": "인문주간 선포식 현장 음향 장비"
         },
         {
-          "src": "assets/projects/mokpo-humanities-2026-03.jpg",
+          "src": "assets/projects/privacy-20261127/mokpo-humanities-2026-03.jpg",
           "alt": "인문주간 선포식 무대 음향 시스템"
         }
       ]
@@ -1023,16 +1023,16 @@
       "location": "호텔현대 바이 라한 목포",
       "role": "음향·조명·LED 영상 시스템",
       "cover": {
-        "src": "assets/projects/daebul-max-2026-01.jpg",
+        "src": "assets/projects/privacy-20261127/daebul-max-2026-01.jpg",
         "alt": "대불산단 M.AX 비전선포식 LED 무대"
       },
       "gallery": [
         {
-          "src": "assets/projects/daebul-max-2026-02.jpg",
+          "src": "assets/projects/privacy-20261127/daebul-max-2026-02.jpg",
           "alt": "대불산단 비전선포식 무대와 객석"
         },
         {
-          "src": "assets/projects/daebul-max-2026-03.jpg",
+          "src": "assets/projects/privacy-20261127/daebul-max-2026-03.jpg",
           "alt": "대불산단 비전선포식 음향 콘솔"
         }
       ]
@@ -1045,16 +1045,16 @@
       "location": "전남대학교 5·18광장",
       "role": "음향 시스템",
       "cover": {
-        "src": "assets/projects/cnu-job-festa-2026-01.jpg",
+        "src": "assets/projects/privacy-20261127/cnu-job-festa-2026-01.jpg",
         "alt": "전남대학교 JOB FESTA 행사장과 음향 설치"
       },
       "gallery": [
         {
-          "src": "assets/projects/cnu-job-festa-2026-02.jpg",
+          "src": "assets/projects/privacy-20261127/cnu-job-festa-2026-02.jpg",
           "alt": "JOB FESTA 현장 음향 시스템"
         },
         {
-          "src": "assets/projects/cnu-job-festa-2026-03.jpg",
+          "src": "assets/projects/privacy-20261127/cnu-job-festa-2026-03.jpg",
           "alt": "JOB FESTA 음향 장비 랙"
         }
       ]
@@ -1067,12 +1067,12 @@
       "location": "함평군문화체육센터",
       "role": "음향·조명·영상 시스템",
       "cover": {
-        "src": "assets/projects/hampyeong-childcare-2026-01.jpg",
+        "src": "assets/projects/privacy-20261127/hampyeong-childcare-2026-01.jpg",
         "alt": "함평 꿈키움발표회 무대와 LED 화면"
       },
       "gallery": [
         {
-          "src": "assets/projects/hampyeong-childcare-2026-02.jpg",
+          "src": "assets/projects/privacy-20261127/hampyeong-childcare-2026-02.jpg",
           "alt": "함평 꿈키움발표회 행사장 설치 전경"
         }
       ]
@@ -1086,16 +1086,16 @@
       "role": "음향기기 설치·운영 및 철거",
       "endDate": "2026-11-24",
       "cover": {
-        "src": "assets/projects/yeonggwang-rockmu-2026-01.jpg",
+        "src": "assets/projects/privacy-20261127/yeonggwang-rockmu-2026-01.jpg",
         "alt": "그날의 목소리 공연 무대와 객석"
       },
       "gallery": [
         {
-          "src": "assets/projects/yeonggwang-rockmu-2026-02.jpg",
+          "src": "assets/projects/privacy-20261127/yeonggwang-rockmu-2026-02.jpg",
           "alt": "락뮤 정기공연 음향 콘솔 운영"
         },
         {
-          "src": "assets/projects/yeonggwang-rockmu-2026-03.jpg",
+          "src": "assets/projects/privacy-20261127/yeonggwang-rockmu-2026-03.jpg",
           "alt": "락뮤 정기공연 음향 장비 랙"
         }
       ]
@@ -1109,25 +1109,25 @@
       "role": "메인무대 LED 영상 콘텐츠 제작·현장 설정 지원, 유자밭 트러스·서치조명",
       "endDate": "2026-11-15",
       "cover": {
-        "src": "assets/projects/goheung-yuja-mainstage-2026-01.jpg",
+        "src": "assets/projects/privacy-20261127/goheung-yuja-mainstage-2026-01.jpg",
         "alt": "고흥유자축제 야간 메인무대와 관객 전경",
         "position": "50% 45%"
       },
       "gallery": [
         {
-          "src": "assets/projects/goheung-yuja-mainstage-2026-02.jpg",
+          "src": "assets/projects/privacy-20261127/goheung-yuja-mainstage-2026-02.jpg",
           "alt": "고흥유자축제 유자콘테스트 시상식 메인무대"
         },
         {
-          "src": "assets/projects/goheung-yuja-mainstage-2026-03.jpg",
+          "src": "assets/projects/privacy-20261127/goheung-yuja-mainstage-2026-03.jpg",
           "alt": "고흥유자축제 야간 공연장과 메인무대 전체 전경"
         },
         {
-          "src": "assets/projects/goheung-yuja-lighting-2026-01.jpg",
+          "src": "assets/projects/privacy-20261127/goheung-yuja-lighting-2026-01.jpg",
           "alt": "유자밭 야간 트러스 조명"
         },
         {
-          "src": "assets/projects/goheung-yuja-lighting-2026-02.jpg",
+          "src": "assets/projects/privacy-20261127/goheung-yuja-lighting-2026-02.jpg",
           "alt": "유자밭 트러스와 조명 설치 전경"
         }
       ]
